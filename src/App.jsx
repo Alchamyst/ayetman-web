@@ -10,10 +10,10 @@ import ProjectsPage from './components/ProjectsPage';
 function App() {
   return (
     <>
+      <Header>
+        <Navbar />
+      </Header>
       <div className='wrapper'>
-        <Header>
-          <Navbar />
-        </Header>
         <Router>
           <Routes>
             <Route path="/" element={<AboutMePage />} /> 

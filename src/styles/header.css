@@ -8,6 +8,16 @@
     padding: 10px 30px;
 }
 
+.header-bg {
+    background-color: #4D5F6D;
+    width: 100%;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    max-width: 85em;
+}
+
 .header h3 {
     color: #e4e3ff; 
     line-height: 1;

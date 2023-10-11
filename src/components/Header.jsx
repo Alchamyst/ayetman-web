@@ -3,13 +3,17 @@ import '../styles/header.css';
 
 export default function Header(props) {
     return(
-        <div className="header">
-            <div>
-                <h3>&lt;Alchamyst /&gt;</h3>
-                <h4>Ashley Yetman</h4>
-            </div>            
-            {/* <img src={reactLogo} className="logo" alt="React logo" /> */}
-            {props.children}
+        <div className='header-bg'>
+            <div className='header-wrapper'>
+                <div className='header'>
+                    <div>
+                        <h3>&lt;Alchamyst /&gt;</h3>
+                        <h4>Ashley Yetman</h4>
+                    </div>            
+                    {/* <img src={reactLogo} className="logo" alt="React logo" /> */}
+                    {props.children}
+                </div>
+            </div>
         </div>
     );
 }
