@@ -85,11 +85,8 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 540px) {
-  h4 {
-    font-size: 2em;
-  }
+@media only screen and (max-width: 550px) {
   body {
-    min-width: 500px;
+    min-width: 525px;
   }
 }
