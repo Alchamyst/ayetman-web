@@ -1,84 +1,52 @@
 import '../styles/experiencePage.css';
+import SkillList from './SkillList';
+
+const programmingSkills = ['CSS3','Google Apps Script','HTML5','Javascript'];
+const frameworkSkills = ['React', 'Node.js'];
+const webTechSkills = ['JSON','RESTful APIs', 'Websockets','XML'];
+const databaseSkills = ['Firebase','MongoDB','MySQL'];
 
 export default function ExperiencePage() {
     return(
-        <div className="main">
+        <div className='main'>
             <main>
-                <p>My professional summary will be written here.</p>
-                <div class="section-skills">
-                    <h1>Technology I Work With</h1>
+                <div class='section-skills'>
+                    <h1>Skills Portfolio</h1>
                     <h2>Programming Languages</h2>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>Google Apps Script</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Unrealscript</li>
-                    </ul>
+                    <SkillList skills={programmingSkills} />
                     <h2>Frameworks</h2>
-                    <ul>
-                        <li>React</li>
-                        <li>Node.js</li>
-                    </ul>
+                    <SkillList skills={frameworkSkills} />
                     <h2>Web Technologies</h2>
-                    <ul>
-                        <li>JSON</li>
-                        <li>RESTful APIs</li>
-                        <li>Websockets</li>
-                        <li>XML</li>
-                    </ul>
+                    <SkillList skills={webTechSkills} />
                     <h2>Database Management</h2>
-                    <ul>
-                        <li>Firebase</li>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-                    </ul>
+                    <SkillList skills={databaseSkills} />
                 </div>
-                <div class="section-education">
+
+                <div class='section-education'>
                     <h1>Education</h1>
-                    <table class="exp">
+                    <table class='exp'>
                         <thead>
                             <tr>
                                 <th>Institute</th>
                                 <th>Qualification</th>
+                                <th>Period</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th>Staffordshire University</th>
                                 <th>BSc Multiplayer Online Games Design</th>
+                                <th>2008-2011</th>
                             </tr>
                             <tr>
                                 <th>Evesham College</th>
                                 <th>BTEC National Diploma for IT Practitioners</th>
+                                <th>2006-2008</th>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="section-history">
-                    <h1>Employment History</h1>
-                    <table class="exp">
-                        <thead>
-                            <tr>
-                                <th>Company</th>
-                                <th>Role</th>
-                                <th>Duration</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Ocere Ltd.</th>
-                                <th>Paid Search Manager</th>
-                                <th>4 Years, 9 Months</th>
-                            </tr>
-                            <tr>
-                                <th>Ocere Ltd.</th>
-                                <th>Digital Marketing Executive</th>
-                                <th>3 Years, 10 Months</th>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+
             </main>
         </div>
     );

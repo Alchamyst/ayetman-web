@@ -1,0 +1,17 @@
+.skill-list ul {
+    /* background-color: lime; */
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    justify-content: flex-start;
+}
+
+.skill-list li {
+    background-color: #171c30;
+    border-radius: 0.5em;
+    color: #bdbdbd;
+    font-size: 1.25em;
+    list-style: none;
+    padding: 0.25em;
+}

@@ -17,3 +17,12 @@
 .exp thead th {
     font-weight: bold;
 }
+
+.section-skills h2 {
+    margin-left: 1em;
+}
+
+.section-skills ul {
+    margin-left: 1em;
+    padding: 0 0 1em 0.5em;
+}
