@@ -1,3 +1,19 @@
-.placeholder {
-    color:lime;
+.exp {
+    border-collapse: collapse;
+    margin: 1em auto 1em auto;
+    width: 100%;
+}
+
+.exp table, th, td {
+    border: 1px solid;
+    border-color: #8da6b6;
+    padding: 0.5em;
+}
+
+.exp thead {
+    background-color: #8da6b6;
+}
+
+.exp thead th {
+    font-weight: bold;
 }
