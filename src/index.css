@@ -72,6 +72,16 @@ h4 {
   min-width: 100vw;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 85em;
+}
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    width: 100%
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
