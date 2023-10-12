@@ -82,10 +82,15 @@ export default function ContactForm() {
     const emailValidation = (email) => {
         // const emailRegex  = new RegExp("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
 
-        const emailRegex  = new RegExp("^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$");
+        const emailRegex  = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
         if(!email) {
             setError('Please enter your email.');  
+            return false;  
+        }
+
+        if(!String(email).toLowerCase().match(emailRegex)){
+            setError('Please enter a valid email.');  
             return false;  
         }
 
