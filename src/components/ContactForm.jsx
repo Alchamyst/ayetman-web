@@ -10,12 +10,12 @@ export default function ContactForm() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
+    const [formValidated, setFormValidated] = useState(false);
     const [formSubmitted, setFormSubmitted] = useState(false);
 
     const form = useRef();
 
     const handleSubmit = (e) => {
-        let validationSuccess = false;
         e.preventDefault();
         setError('');
 
@@ -30,12 +30,11 @@ export default function ContactForm() {
         }
 
         // do validation checks
-
-        // validationSuccess = true;
+        // setFormValidated(true);
         setError('Sorry, form submissions are disabled right now.');
 
-        if (validationSuccess) {
-            emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, formData, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
+        if (formValidated) {
+            emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
             .then((result) => {
                 console.log(result.text);
                 setFormSubmitted(true);
