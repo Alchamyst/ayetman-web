@@ -27,10 +27,6 @@ body {
   background-color: #BDBDBD;
   margin: 0;
   padding: 0;
-  /* display: flex; testing */ 
-  /* place-items: center; */
-  /* min-width: 480px; */
-  /* min-width: 100vw; */
 }
 
 
@@ -76,27 +72,15 @@ h4 {
   margin: 0 auto;
   max-width: 90em;
 }
+
 @media only screen and (max-width: 1280px) {
   .wrapper {
-    width: 100%
+    width: 100%;
   }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 480px) {
   body {
-    min-width: 525px;
+    width: 100vw;
   }
 }

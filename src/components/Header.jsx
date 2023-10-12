@@ -7,7 +7,7 @@ export default function Header(props) {
             <div className='header-wrapper'>
                 <div className='header'>
                     <div>
-                        <h3>&lt;Alchamyst /&gt;</h3>
+                        <h3>&lt;Alchamyst/&gt;</h3>
                         <h4>Ashley Yetman</h4>
                     </div>            
                     {/* <img src={reactLogo} className="logo" alt="React logo" /> */}

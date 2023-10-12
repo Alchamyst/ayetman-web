@@ -1,28 +1,19 @@
 .contact-form {
     background-color: #8da6b6;
     border-radius: 1em;
-    /* box-shadow: 0.5em 0.5em 0.5em #4d5f6d; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    opacity: 80%;
+    opacity: 100%;
     padding: 1em;
-    width: 31em;
-}
-
-
-.contact-form button:hover {
-    background-color: #eeac31;
-    color:#171c30;
+    max-width: 31em;
+    width: 100%
 }
 
 .contact-form label {
-    /* background-color: red; */
     display: block;
     margin: 0 auto 0 auto;
     padding: 0.75em 0 0.25em 0em;
-    /* padding-bottom: 0.25em;
-    padding-left: 0em;
-    padding-top: 0.5em; */
-    width: 26em;
+    max-width: 26em;
+    width: 100%
 }
 
 .contact-form input {
@@ -34,7 +25,8 @@
     padding-bottom: 0.75em;
     padding-left: 1em;
     padding-top: 0.75em;
-    width: 30em;
+    max-width: 30em;
+    width: 100%
 }
 
 .contact-form textarea {
@@ -48,24 +40,32 @@
     padding-left: 1em;
     padding-top: 0.75em;
     resize: none;
-    width: 30em;
+    max-width: 30em;
+    width: 100%
 }
 
 .contact-form button {
-    /* background-color: #8da6b6; */
+    background-color: #eeac31;
+    color:#171c30;
     border: 1px solid #171c30;
     border-radius: 0.5em;
     cursor: pointer;
     display: block;
     font-size: 1.5em;
+    height: 2em;
     margin: 1em auto;
+    max-width: 10em;
     padding: 0.25em;
-    width: 8em;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: lightgreen;
+    color:#171c30;
 }
 
 .contact-form input:focus, .contact-form textarea:focus, .contact-form button:focus {
     outline: 0.1em solid #eeac31;
-    /* border: 1px solid #eeac31; */
 }
 
 .required {
@@ -76,4 +76,23 @@
 .success {
     color:darkgreen;
     text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-form {
+        border-radius: 1em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 0.25em;
+    }
+    .contact-form input {
+        width: 90%;
+    }
+    .contact-form textarea {
+        width: 90%;
+    }
+    .contact-form button {
+        background-color: #eeac31;
+        color:#171c30;
+        width: 90%;
+    }
 }

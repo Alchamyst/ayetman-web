@@ -24,7 +24,7 @@ export default function ContactForm() {
             return setError('Please leave your email or a phone number.')            
         }
         if(!message) {
-            return setError('Message is empty. please type a message.')
+            return setError('Message is empty. Please type a message.')
         }
         setFormSubmitted(true);
 
@@ -51,8 +51,7 @@ export default function ContactForm() {
                 <button type='submit' onClick={handleSubmit}>Send Message</button>
             </form>}
             {formSubmitted && <p className='success'>Form Submitted Successfully! <br />(This is placeholder text)</p>}
+            {/* Thanks for your message. I'll get back to you as soon as I can! */}
         </div>
     );
 }
-
-
