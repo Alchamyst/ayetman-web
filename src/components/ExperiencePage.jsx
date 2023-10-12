@@ -29,19 +29,19 @@ export default function ExperiencePage() {
                             <tr>
                                 <th>Institute</th>
                                 <th>Qualification</th>
-                                <th>Period</th>
+                                <th>Year</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th>Staffordshire University</th>
                                 <th>BSc Multiplayer Online Games Design</th>
-                                <th>2008-2011</th>
+                                <th>2011</th>
                             </tr>
                             <tr>
                                 <th>Evesham College</th>
                                 <th>BTEC National Diploma for IT Practitioners</th>
-                                <th>2006-2008</th>
+                                <th>2008</th>
                             </tr>
                         </tbody>
                     </table>

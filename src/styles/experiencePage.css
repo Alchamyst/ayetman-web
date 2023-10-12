@@ -1,13 +1,13 @@
 .exp {
     border-collapse: collapse;
-    margin: 1em auto 1em auto;
-    width: 100%;
-}
+    margin: 1em auto 1em 1em;
+    /* width: 45em; */
+} 
 
 .exp table, th, td {
     border: 1px solid;
     border-color: #8da6b6;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .exp thead {
@@ -18,6 +18,11 @@
     font-weight: bold;
 }
 
+.section-skills {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
 .section-skills h2 {
     margin-left: 1em;
 }
@@ -25,4 +30,9 @@
 .section-skills ul {
     margin-left: 1em;
     padding: 0 0 1em 0.5em;
+}
+
+.section-education {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
