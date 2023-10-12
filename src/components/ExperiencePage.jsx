@@ -10,7 +10,7 @@ export default function ExperiencePage() {
     return(
         <div className='main'>
             <main>
-                <div class='section-skills'>
+                <div className='section-skills'>
                     <h1>Skills Portfolio</h1>
                     <h2>Programming Languages</h2>
                     <SkillList skills={programmingSkills} />
@@ -22,9 +22,9 @@ export default function ExperiencePage() {
                     <SkillList skills={databaseSkills} />
                 </div>
 
-                <div class='section-education'>
+                <div className='section-education'>
                     <h1>Education</h1>
-                    <table class='exp'>
+                    <table className='exp'>
                         <thead>
                             <tr>
                                 <th>Institute</th>
