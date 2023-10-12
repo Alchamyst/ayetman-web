@@ -1,3 +1,5 @@
+import React, { useRef, userRef } from 'react';
+import emailjs from '@emailjs/browser';
 import '../styles/contactForm.css';
 import { useState } from 'react';
 
@@ -10,12 +12,12 @@ export default function ContactForm() {
     const [error, setError] = useState('');
     const [formSubmitted, setFormSubmitted] = useState(false);
 
+    const form = useRef();
+
     const handleSubmit = (e) => {
+        let validationSuccess = false;
         e.preventDefault();
-
         setError('');
-
-        console.log(name, phone, email, message)
 
         if(!name) {
             return setError('Name is empty. Please fill out your name.')
@@ -26,14 +28,27 @@ export default function ContactForm() {
         if(!message) {
             return setError('Message is empty. Please type a message.')
         }
-        setFormSubmitted(true);
 
+        // do validation checks
+
+        // validationSuccess = true;
+        setError('Sorry, form submissions are disabled right now.');
+
+        if (validationSuccess) {
+            emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, formData, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
+            .then((result) => {
+                console.log(result.text);
+                setFormSubmitted(true);
+            }, (error) => {
+                setError(error);
+            });   
+        }
     }
 
     return(
         <div className='contact-form'>
             {!formSubmitted &&
-            <form>
+            <form ref={form}>
                 <label htmlFor='name'>Full Name</label>
                 <input type='text' name='name' id='name' value={name} onChange={ (e) => setName(e.target.value)} />
 
@@ -50,8 +65,7 @@ export default function ContactForm() {
 
                 <button type='submit' onClick={handleSubmit}>Send Message</button>
             </form>}
-            {formSubmitted && <p className='success'>Form Submitted Successfully! <br />(This is placeholder text)</p>}
-            {/* Thanks for your message. I'll get back to you as soon as I can! */}
+            {formSubmitted && <p className='success'>Thanks for your message. I'll get back to you soon.</p>}
         </div>
     );
 }
