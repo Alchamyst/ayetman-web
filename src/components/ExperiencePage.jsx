@@ -1,9 +1,9 @@
 import '../styles/experiencePage.css';
 import SkillList from './SkillList';
 
-const programmingSkills = ['CSS3','Google Apps Script','HTML5','Javascript'];
+const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
 const frameworkSkills = ['React', 'Node.js'];
-const webTechSkills = ['JSON','RESTful APIs', 'Websockets','XML'];
+const webTechSkills = ['JSON', 'XML', 'RESTful APIs', 'Websockets'];
 const databaseSkills = ['Firebase','MongoDB','MySQL'];
 
 export default function ExperiencePage() {
