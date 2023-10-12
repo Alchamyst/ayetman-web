@@ -27,23 +27,18 @@ export default function ContactForm() {
 
         if (formValidated) {
             setFormSubmitted(true);
-            console.log(`Updated! formSubmitted=${formSubmitted}`);
 
-            // emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
-            // .then((result) => {
-            //     console.log(result.text);
-            //     setFormSubmitted(true);
-            // }, (error) => {
-            //     setError(error);
-            // });   
+            emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
+            .then((result) => {
+                console.log(result.text);
+                setFormSubmitted(true);
+            }, (error) => {
+                setError(error);
+            });   
         }
-
-
     }
 
     const checkFormValidation = (name, phone, email, message) => {
-        console.log(`name=${name} phone=${phone} email=${email} message=${message}`);
-
         if(nameValidation(name) == false) return false;
         if(phoneValidation(phone) == false) return false;
         if(emailValidation(email) == false) return false;
@@ -80,8 +75,6 @@ export default function ContactForm() {
     }
 
     const emailValidation = (email) => {
-        // const emailRegex  = new RegExp("^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
-
         const emailRegex  = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
         if(!email) {
@@ -93,11 +86,6 @@ export default function ContactForm() {
             setError('Please enter a valid email.');  
             return false;  
         }
-
-        // if(!emailRegex.test(email)) {
-        //     setError('Please enter a valid email.');
-        //     return false; 
-        // } 
         
         return true; 
     }
@@ -105,6 +93,17 @@ export default function ContactForm() {
     const messageValidation = (message) => {
         if(!message) {
             setError('Message is empty. Please type a message.');
+            return false
+        }
+
+
+        if(String(message).length < 75 ) {
+            setError('Message is too short. Please enter at least 75 characters.');
+            return false
+        }
+
+        if(String(message).length > 500 ) {
+            setError('Message is too long. Please keep to 500 characters or less.');
             return false
         }
 
