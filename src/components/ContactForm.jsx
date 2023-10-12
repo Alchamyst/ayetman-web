@@ -9,6 +9,7 @@ export default function ContactForm() {
     const [phone, setphone] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [honeyPot, sethoneyPot] = useState('');
     const [error, setError] = useState('');
     const [formValidated, setFormValidated] = useState(false);
     const [formSubmitted, setFormSubmitted] = useState(false);
@@ -19,6 +20,9 @@ export default function ContactForm() {
         e.preventDefault();
         setError('');
 
+        if(honeyPot) {
+            return setFormSubmitted(true);    
+        }
         if(!name) {
             return setError('Name is empty. Please fill out your name.')
         }
@@ -56,6 +60,8 @@ export default function ContactForm() {
 
                 <label htmlFor='email'>Email</label>
                 <input type='email' name='email' id='email' value={email} onChange={ (e) => setEmail(e.target.value)}/>
+
+                <input type='hidden' name='work-email' id='work-email' value={honeyPot}  onChange={ (e) => sethoneyPot(e.target.value)}/>
 
                 <label htmlFor='message'>Message</label>
                 <textarea name='message' id='message' value={message} onChange={ (e) => setMessage(e.target.value)}/>
