@@ -1,6 +1,9 @@
-import '../styles/listBlocks.css';
+import '../styles/listBlock.css';
 
-export default function ListBlocks(props) {
+export default function ListBlock(props) {
+
+    if (!props.list) return (<p>Error: Missing 'list' in props.</p>);
+
     const listData = props.list.map((list) => <li key={list}>{list}</li>)
 
     return(

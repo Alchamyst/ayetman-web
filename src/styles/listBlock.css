@@ -3,8 +3,9 @@
     display: flex;
     flex-flow: row wrap;
     flex-wrap: wrap;
-    gap: 1em 0.5em;
+    gap: 0.5em 0.5em;
     justify-content: flex-start;
+    padding: 0;
 }
 
 .skill-list li {

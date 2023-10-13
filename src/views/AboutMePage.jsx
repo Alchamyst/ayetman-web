@@ -1,22 +1,23 @@
+import SocialLinks from '../components/SocialLinks';
 import '../styles/aboutMePage.css';
-import linkIcon from '../assets/link-icon.svg';
 
 export default function AboutMePage() {
     return(
-        <div className="main">
-            <main>
-                <h1>Hey, I'm Ashley.</h1>
-                <p>
-                    As a seasoned IT professional with recent expertise in PPC and SEO marketing, I've taken on various responsibilities. 
-                    This includes proficiently managing pay-per-click accounts, providing technical support for Google Workspace users and 
-                    IT equipment within the organization, and consulting with clients to implement diverse tracking code solutions.
-                </p>
-                <p>
-                    My programming skills have been a continuous focus, particularly in JavaScript, while delving into Node.js and React to stay aligned with 
-                    the latest industry developments. My commitment to professional growth remains strong, with plans to master React with TypeScript on the horizon, 
-                    further enhancing my skillset.
-                </p>
-                <a href="#">This is a test link</a>
+        <div className='main'>
+            <main className='about-me'>
+                <div className='about-me'>
+                    <h1>Hey, I'm Ashley.</h1>
+
+                    <p>
+                        Hello, I'm Ashley, a driven web developer and digital strategist with a strong foundation in the dynamic landscape of IT and online marketing.  
+                        My journey in the world of technology and marketing has equipped me with a unique blend of skills and insights.
+                    </p>
+                    <p>
+                        When it comes to coding, my enthusiasm knows no bounds. JavaScript is my playground, and I thrive in the worlds of Node.js and React. 
+                        These skills have empowered me to collaborate effectively with clients' development teams, crafting optimized user experiences that leave a lasting impression.
+                    </p>
+                </div>
+                <SocialLinks />
             </main>
         </div>
     );
