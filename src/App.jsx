@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-import AboutMePage from './components/AboutMePage';
-import ContactPage from './components/ContactPage';
-import ExperiencePage from './components/ExperiencePage';
-import ProjectsPage from './components/ProjectsPage';
+import AboutMePage from './views/AboutMePage';
+import ContactPage from './views/ContactPage';
+import ExperiencePage from './views/ExperiencePage';
+import ProjectsPage from './views/ProjectsPage';
 
 function App() {
   return (
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

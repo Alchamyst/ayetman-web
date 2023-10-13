@@ -1,5 +1,5 @@
 import '../styles/experiencePage.css';
-import SkillList from './SkillList';
+import ListBlock from '../components/ListBlock';
 
 const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
 const frameworkSkills = ['React', 'Node.js','Handlebars'];
@@ -13,13 +13,13 @@ export default function ExperiencePage() {
                 <div className='section-skills'>
                     <h1>Skills Portfolio</h1>
                     <h2>Programming Languages</h2>
-                    <SkillList skills={programmingSkills} />
+                    <ListBlock list={programmingSkills} />
                     <h2>Frameworks</h2>
-                    <SkillList skills={frameworkSkills} />
+                    <ListBlock list={frameworkSkills} />
                     <h2>Web Technologies</h2>
-                    <SkillList skills={webTechSkills} />
+                    <ListBlock list={webTechSkills} />
                     <h2>Database Management</h2>
-                    <SkillList skills={databaseSkills} />
+                    <ListBlock list={databaseSkills} />
                 </div>
 
                 <div className='section-education'>
