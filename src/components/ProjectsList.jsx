@@ -19,7 +19,8 @@ export default function ProjectsList(props) {
             <Project 
                 name={expensifyProject.name} 
                 skills={expensifyProject.skills} 
-                image={expensifyProject.image} 
+                image='' 
+                // image={expensifyProject.image} 
                 github={expensifyProject.github}
                 liveUrl={expensifyProject.liveUrl}
                 description={expensifyProject.description}
