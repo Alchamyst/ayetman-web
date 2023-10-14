@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Expensify App",
+        "skills": [
+            "Firebase",
+            "Javascript",
+            "Node.js",
+            "React"
+        ],
+        "image": "expensify.png",
+        "github": "https://github.com/Alchamyst/expensify-app",
+        "liveUrl": "",
+        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+    },
+    {
+        "name": "Test App 2",
+        "skills": [
+            "MongoDB",
+            "Javascript",
+            "Node.js",
+            "Handlebars"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/expensify-app",
+        "liveUrl": "#",
+        "description": "Here is a different description of my app."
+    }
+]

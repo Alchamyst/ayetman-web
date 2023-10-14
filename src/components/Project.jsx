@@ -25,7 +25,7 @@ export default function Project(props) {
 
                     <div className='project-details'>
                         <div className='project-skills'>
-                            <ListBlock list={['Firebase','Javascript','Node.js','React']} /> 
+                            <ListBlock list={props.skills} /> 
                         </div>
                         <div className='project-description'>  
                             <p>{props.description}</p>
