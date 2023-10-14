@@ -1,7 +1,7 @@
 .skill-list ul {
     /* background-color: lime; */
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5em 0.5em;
     justify-content: flex-start;
