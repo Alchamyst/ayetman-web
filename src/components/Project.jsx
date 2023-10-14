@@ -1,6 +1,6 @@
 import '../styles/project.css';
 import ListBlock from '../components/ListBlock';
-import noImage from '../assets/no-image-placeholder.svg';
+import noImage from '../assets/js-logo.svg';
 
 export default function Project(props) {
 
@@ -14,7 +14,7 @@ export default function Project(props) {
                 <div className='project-wrapper'>
                     <div className='project-info'>
                         <div className='project-image-container'>
-                            {props.image && <img src={new URL(`../assets/project-img/${props.image}`, import.meta.url).href} />}
+                            {props.image && <img src={new URL(`../assets/project-images/${props.image}`, import.meta.url).href} />}
                             {!props.image && <img src={noImage} />}
                         </div>
                         <div className='project-links'>
