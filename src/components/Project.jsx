@@ -3,6 +3,7 @@ import ListBlock from '../components/ListBlock';
 import noImage from '../assets/no-image-placeholder.svg';
 
 export default function Project(props) {
+
     return(
         <>
             <div className='project-card'>
@@ -13,12 +14,12 @@ export default function Project(props) {
                 <div className='project-wrapper'>
                     <div className='project-info'>
                         <div className='project-image-container'>
-                            {props.image && <img src={props.image} />}
+                            {props.image && <img src={new URL(`../assets/project-img/${props.image}`, import.meta.url).href} />}
                             {!props.image && <img src={noImage} />}
                         </div>
                         <div className='project-links'>
-                            <a href={props.github}>View on GitHub</a> 
-                            {props.liveUrl && <a href={props.liveUrl}>Visit Project</a>}
+                            <a href={props.github}>GitHub &#x29c9;</a> 
+                            {props.liveUrl && <a href={props.liveUrl}>Live Project &#x29c9;</a>}
                         </div>
                     </div>
 
@@ -36,3 +37,4 @@ export default function Project(props) {
         </>
     );
 }
+
