@@ -5,7 +5,7 @@ export default function ProjectsPage() {
     return(
         <div className="main">
             <main>
-                <h1>My Projects</h1>
+                <h1 className='projects-page-title'>My Projects</h1>
                 <ProjectsList />
             </main>
         </div>
