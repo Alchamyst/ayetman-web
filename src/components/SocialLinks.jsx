@@ -1,6 +1,6 @@
 import '../styles/socialLinks.css';
-import gitHubIcon from '../assets/github.svg';
-import linkednnIcon from '../assets/linkedin.png';
+import gitHubIcon from '../assets/socials/github.svg';
+import linkednnIcon from '../assets/socials/linkedin.png';
 
 export default function SocialLinks(props) {
     return(

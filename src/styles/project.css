@@ -1,0 +1,117 @@
+.project-card {
+    background-color: #8da6b6;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 100%;
+    margin-bottom: 1em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.project-title {
+    padding-left: 1em;
+    width: 100%;
+}
+
+.project-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* .project-info {
+
+} */
+
+/* .project-details {
+
+} */
+
+.project-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-image-container img {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 5%;
+    height: 15em;
+    width: 15em;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+.project-links a {
+    border: 1px solid #171C30;
+    border-radius: 10px;
+    color: #171C30;
+    text-align: center;
+    padding: 0em 0.5em 0em 0.5em;
+    width: max-content;
+}
+
+.project-links a:hover {
+    border-color: #e6772e;
+    color: #e6772e;
+    text-align: center;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.project-skills {
+    margin: 0em 0em 1em 1em;
+    padding: 0em 0em 0em 0em;
+}
+
+/* .project-description {
+
+} */
+
+.project-description p {
+    margin: 0em 0em 1em 1em;
+    padding: 0em 0em 0em 0em;
+}
+
+
+@media only screen and (max-width: 995px) {
+    .project-image-container img {
+        height: 12.5em;
+        width: 12.5em;
+    }
+    .project-links {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1em;
+    }
+    .project-links a:first-child {
+        margin-bottom: 0.75em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-image-container img {
+        margin: 0.25em 0.25em 0.25em 0.25em;
+        height: 10em;
+        width: 10em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-title {
+        padding-left: 0.5em;
+    }
+    .project-wrapper {
+        flex-wrap: wrap;
+    }
+}
