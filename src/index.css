@@ -52,7 +52,7 @@ h4 {
 }
 
 html {
-	overflow: scroll;
+  overflow-y: scroll;
 }
 
 .content-box {
