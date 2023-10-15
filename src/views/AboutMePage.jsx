@@ -6,7 +6,7 @@ export default function AboutMePage() {
     return(
         <div className='main'>
             <main>
-                <div className='about-me'>
+                <div className='about-me content-box'>
                     <h1>Hey, I'm Ashley.</h1>
                     <img className='ash-img' src={ashleyImg} />
 

@@ -23,6 +23,10 @@
     padding-bottom: 0.5em;
 }
 
+.section-skills h1 {
+    margin-top: 0;
+}
+
 .section-skills h2 {
     margin-bottom: -0.5em;
     margin-left: 1em;

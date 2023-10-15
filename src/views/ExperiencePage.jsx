@@ -9,7 +9,7 @@ const databaseSkills = ['Firebase','MongoDB','MySQL'];
 export default function ExperiencePage() {
     return(
         <div className='main'>
-            <main>
+            <main className='content-box'>
                 <div className='section-skills'>
                     <h1>Skills Portfolio</h1>
                     <h2>Programming Languages</h2>

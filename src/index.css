@@ -50,6 +50,17 @@ h4 {
   line-height: 1.1;      
 }
 
+.content-box {
+    background-color: #8da6b6;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* max-width: 31em;
+    width: 100% */
+}
+
 .link-icon {
   color: red;
   height: 1em;
