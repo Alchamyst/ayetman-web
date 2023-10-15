@@ -2,7 +2,7 @@ import '../styles/notFoundPage.css';
 
 export default function ErrorPage() {
     return(
-        <div className="main">
+        <div className='main'>
             <main>
                 <h1>Oops!</h1>
                 <p>The page you were looking for does not exist.</p>

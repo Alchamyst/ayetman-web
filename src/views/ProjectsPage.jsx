@@ -3,7 +3,7 @@ import ProjectsList from '../components/ProjectsList';
 
 export default function ProjectsPage() {
     return(
-        <div className="main">
+        <div className='main'>
             <main>
                 <div className='content-box'>
                     <h1 className='projects-page-title'>My Projects</h1>
