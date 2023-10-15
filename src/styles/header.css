@@ -36,6 +36,14 @@
     margin-block-end: 0.5em;    
 }
 
+@media only screen and (max-width: 995px){
+    .header{
+        place-items:unset;
+        padding: 0.25em 1em;
+
+    }
+}
+
 @media only screen and (max-width: 525px) {
     .header {
         padding: 0.25em 1em;
@@ -68,3 +76,9 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 250px) {
+    .header {
+      min-width: 250px;
+    }
+  }

@@ -31,6 +31,8 @@ body {
 
 
 h1 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.75em;
   line-height: 1.1;
 }
@@ -90,8 +92,8 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    width: 100vw;
+@media only screen and (max-width: 250px) {
+  .wrapper {
+    min-width: 250px;
   }
 }

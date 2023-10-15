@@ -6,7 +6,7 @@ export default function Header(props) {
         <div className='header-bg'>
             <div className='header-wrapper'>
                 <div className='header'>
-                    <div>
+                    <div className='site-title'>
                         <h3>&lt;Alchamyst/&gt;</h3>
                         <h4>Ashley Yetman</h4>
                     </div>            
