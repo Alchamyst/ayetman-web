@@ -4,7 +4,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 100%;
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 0em 1em 1em 1em;
 
     display: flex;
     flex-direction: row;
@@ -15,6 +15,11 @@
 .project-title {
     padding-left: 1em;
     width: 100%;
+}
+
+.project-title h2{
+    font-size: 1.5em;
+    /* text-decoration:underline; */
 }
 
 .project-wrapper {
@@ -37,8 +42,8 @@
 }
 
 .project-image-container img {
-    margin: 0.5em 0.5em 0.5em 0.5em;
     border-radius: 5%;
+    margin: 0.5em 0.5em 0.5em 0.5em;
     height: 15em;
     width: 15em;
 }
@@ -47,26 +52,33 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-
 }
 
 .project-links a {
+    background-color: #dcd9d8;
     border: 1px solid #171C30;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #171C30;
-    text-align: center;
     padding: 0em 0.5em 0em 0.5em;
+    text-align: center;
+    transition: 0.2s;
     width: max-content;
 }
 
 .project-links a:hover {
     border-color: #e6772e;
+    box-shadow: none;
     color: #e6772e;
     text-align: center;
     padding: 0em 0.5em 0em 0.5em;
+}
+
+.project-links a:hover::after{
+    content: ' \00bb';
+    transition: 0.5s;
 }
 
 .project-skills {
