@@ -6,6 +6,7 @@ import AboutMePage from './views/AboutMePage';
 import ContactPage from './views/ContactPage';
 import ExperiencePage from './views/ExperiencePage';
 import ProjectsPage from './views/ProjectsPage';
+import NotFoundPage from './views/NotFoundPage';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
             <Route path="/" element={<AboutMePage />} /> 
             <Route path="/experience" exact element={<ExperiencePage />} />  
             {/* <Route path="/projects" exact element={<ProjectsPage />} />      */}
-            <Route path="/contact" exact element={<ContactPage />} />     
+            <Route path="/contact" exact element={<ContactPage />} />  
+            <Route path="*" exact element={<NotFoundPage />} status={404}/>     
           </Routes>
         </Router>
       </div>
