@@ -2,7 +2,7 @@ import '../styles/experiencePage.css';
 import ListBlock from '../components/ListBlock';
 
 const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
-const frameworkSkills = ['React', 'Node.js','Handlebars'];
+const frameworkSkills = ['React', 'Node.js','Jest','Handlebars'];
 const webTechSkills = ['JSON', 'XML', 'RESTful APIs', 'Websockets'];
 const databaseSkills = ['Firebase','MongoDB','MySQL'];
 

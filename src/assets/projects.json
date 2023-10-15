@@ -1,11 +1,25 @@
 [
     {
-        "name": "Expensify App",
+        "name": "Node MySQL Login",
         "skills": [
-            "Firebase",
             "Javascript",
             "Node.js",
-            "React"
+            "Handlebars",
+            "JSON",
+            "MySQL"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/node-mysql-login",
+        "liveUrl": "",
+        "description": "An express webserver that uses socket.io to create virtual chatrooms."
+    },
+    {
+        "name": "Expensify App",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "React",
+            "Firebase"
         ],
         "image": "expensify.png",
         "github": "https://github.com/Alchamyst/expensify-app",
@@ -13,16 +27,53 @@
         "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
     },
     {
-        "name": "Test App 2",
+        "name": "Chat App",
         "skills": [
-            "MongoDB",
             "Javascript",
             "Node.js",
-            "Handlebars"
+            "Websockets"
         ],
         "image": "",
-        "github": "https://github.com/Alchamyst/expensify-app",
-        "liveUrl": "#",
-        "description": "Here is a different description of my app."
+        "github": "https://github.com/Alchamyst/chat-app",
+        "liveUrl": "",
+        "description": "Simple chat app created using nodejs and socket.io. Users can join virtual chatrooms and chat with other people who have joined a room of the same name."
+    },
+    {
+        "name": "Indecision App",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "React"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/indecision-app",
+        "liveUrl": "",
+        "description": ""
+    },
+    {
+        "name": "Task Manager API",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "Jest",
+            "JSON",
+            "RESTful APIs",
+            "MongoDB"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/task-manager-api",
+        "liveUrl": "",
+        "description": ""
+    },
+    {
+        "name": "Node Weather Website",
+        "skills": [
+            "Javascript",
+            "Node.js"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/node-weather-website",
+        "liveUrl": "",
+        "description": ""
     }
 ]
