@@ -6,15 +6,16 @@
 
 .exp table, th, td {
     border: 1px solid;
-    border-color: #8da6b6;
+    border-color: #171C30;
     padding: 1em;
 }
 
 .exp thead {
-    background-color: #8da6b6;
+    background-color: #171C30;
 }
 
 .exp thead th {
+    color: #dcd9d8;
     font-weight: bold;
 }
 
