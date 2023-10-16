@@ -73,13 +73,19 @@
     outline: 0.1em solid #eeac31;
 }
 
-.required {
-    color: #D30000;
+.form-error {
+    color: #bb0f02;
+    font-size: 1.1em;
     text-align: center;
+
+    text-decoration: none;
+    box-shadow:none;
+    outline: none;
 }
 
 .success {
-    color:darkgreen;
+    color:#31d190;
+    font-size: 1.25em;
     text-align: center;
 }
 

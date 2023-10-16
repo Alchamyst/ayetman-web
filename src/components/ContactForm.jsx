@@ -49,12 +49,12 @@ export default function ContactForm() {
 
     const nameValidation = (name) => {
         if( !name ) {
-            setError('Name is empty. Please fill out your name.');
+            setError('Please fill out your name.');
             return false;
         } 
 
         if( String(name).length > 50 ) {
-            setError('Name too long. Please shorten to 50 chars or less.');
+            setError('Name too long (50 characters or less).');
             return false;
         }
 
@@ -63,11 +63,12 @@ export default function ContactForm() {
 
     const phoneValidation = (phone) => {
         const phoneRegex  = new RegExp("^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$");
+        let phoneWithoutSpaces = phone.replace(/\s+/g,'');
 
         if(!phone) return true;   
 
-        if(!phoneRegex.test(phone)) {
-            setError('Please enter a valid phone number, with no spaces.');
+        if(!phoneRegex.test(phoneWithoutSpaces)) {
+            setError('Please enter a valid phone number.');
             return false; 
         } 
 
@@ -92,18 +93,18 @@ export default function ContactForm() {
 
     const messageValidation = (message) => {
         if(!message) {
-            setError('Message is empty. Please type a message.');
+            setError('Please type a message.');
             return false
         }
 
 
-        if(String(message).length < 75 ) {
-            setError('Message is too short. Please enter at least 75 characters.');
+        if(String(message).length < 65 ) {
+            setError('Message is too short.');
             return false
         }
 
-        if(String(message).length > 500 ) {
-            setError('Message is too long. Please keep to 500 characters or less.');
+        if(String(message).length > 750 ) {
+            setError('Message is too long. Please keep to 750 characters or less.');
             return false
         }
 
@@ -114,25 +115,24 @@ export default function ContactForm() {
         <div className='contact-form'>
             {!formSubmitted &&
             <form ref={form}>
-                <label htmlFor='name'>Your Name</label>
+                <label htmlFor='name'>Your Name *</label>
                 <input type='text' name='name' id='name' value={name} onChange={ (e) => setName(e.target.value)} />
 
                 <label htmlFor='phone'>Phone Number</label>
                 <input type='tel' name='phone' id='phone' value={phone} onChange={ (e) => setphone(e.target.value)}/>
 
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email'>Email *</label>
                 <input type='email' name='email' id='email' value={email} onChange={ (e) => setEmail(e.target.value)}/>
 
                 <input type='hidden' name='work-email' id='work-email' value={honeyPot}  onChange={ (e) => sethoneyPot(e.target.value)}/>
 
-                <label htmlFor='message'>Message</label>
+                <label htmlFor='message'>Message *</label>
                 <textarea name='message' id='message' value={message} onChange={ (e) => setMessage(e.target.value)}/>
 
-                {error && <p className="required">{error}</p>}
-
+                {error && <p className="form-error">Warning: {error}</p>}
                 <button type='submit' onClick={handleSubmit}>Send Message</button>
             </form>}
-            {formSubmitted && <p className='success'>Thanks for your message. I'll get back to you soon.</p>}
+            {formSubmitted && <p className='success'>Message Sent. 	Thanks for getting in touch.</p>}
         </div>
     );
 }
