@@ -48,7 +48,7 @@
         "image": "",
         "github": "https://github.com/Alchamyst/indecision-app",
         "liveUrl": "",
-        "description": ""
+        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
     },
     {
         "name": "Task Manager API",
@@ -63,7 +63,7 @@
         "image": "",
         "github": "https://github.com/Alchamyst/task-manager-api",
         "liveUrl": "",
-        "description": ""
+        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
     },
     {
         "name": "Node Weather Website",
@@ -74,6 +74,6 @@
         "image": "",
         "github": "https://github.com/Alchamyst/node-weather-website",
         "liveUrl": "",
-        "description": ""
+        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
     }
 ]
