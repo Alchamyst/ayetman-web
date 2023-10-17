@@ -7,7 +7,8 @@ export default function ProjectsPage() {
             <main>
                 <div className='content-box'>
                     <h1 className='projects-page-title'>My Projects</h1>
-                    <p>Hey this is my projects page. here is a general idea of why this exists.</p>
+                    <p>Below are personal projects I have worked on, along with their source code.</p>
+                    <p>There is a button to view the source code for each project on github, and some projects have a button for viewing the live version where available.</p>
                 </div>
                 <ProjectsList />
             </main>
