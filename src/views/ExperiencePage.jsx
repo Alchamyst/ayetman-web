@@ -22,8 +22,10 @@ export default function ExperiencePage() {
                     <ListBlock list={databaseSkills} />
                 </div>
 
-                <div className='section-education'>
-                    <h1>Education</h1>
+                <div className='section-history'>
+                    <h1>History</h1>
+
+                    {/* This is a temporary table that will be replaced by a component that will list an education + work timeline.  */}
                     <table className='exp'>
                         <thead>
                             <tr>
@@ -45,6 +47,8 @@ export default function ExperiencePage() {
                             </tr>
                         </tbody>
                     </table>
+                    {/* End of section that is to be replaced. */}
+
                 </div>
 
             </main>
