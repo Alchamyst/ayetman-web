@@ -69,14 +69,18 @@
     color:#171c30;
 }
 
-.contact-form input:focus, .contact-form textarea:focus, .contact-form button:focus {
-    outline: 0.1em solid #eeac31;
+.contact-form input:focus, .contact-form textarea:focus  {
+    outline: 0.2em solid #eeac31;
+}
+.contact-form button:focus {
+    outline: 0.2em solid #31d190;
 }
 
 .form-error {
-    color: #bb0f02;
-    font-size: 1.1em;
+    color: #FFd300;
+    font-size: 1.2em;
     text-align: center;
+    text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
 
     text-decoration: none;
     box-shadow:none;
@@ -84,9 +88,12 @@
 }
 
 .success {
-    color:#31d190;
+    color:#70DD00;
+    text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
+
     font-size: 1.25em;
     text-align: center;
+
 }
 
 @media only screen and (max-width: 575px) {
