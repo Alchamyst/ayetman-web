@@ -1,4 +1,48 @@
-.history-list-item {
+.history-compact {
     background-color: #171C30;
     color: white;
+
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+}
+
+.history-compact-expanded {
+    border-radius: 1em 1em 0em 0em;
+}
+
+.history-expanded {
+    background-color: #373C60;
+    color: white;
+
+    border-radius: 0em 0em 1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 0em;
+    padding: 1em 1em 1em 1em;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+}
+
+.expander {
+
+}
+
+.expander-open{
+
+}
+
+.expander > p, .expander-open > p {
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
 }
