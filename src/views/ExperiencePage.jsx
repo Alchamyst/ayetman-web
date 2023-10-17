@@ -1,5 +1,7 @@
 import '../styles/experiencePage.css';
 import ListBlock from '../components/ListBlock';
+import HistoryList from '../components/HistoryList';
+import myHistory from '../assets/myHistory.json';
 
 const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
 const frameworkSkills = ['React', 'Node.js','Jest','Handlebars'];
@@ -24,9 +26,9 @@ export default function ExperiencePage() {
 
                 <div className='section-history'>
                     <h1>History</h1>
-
+                    <HistoryList history={myHistory} />
                     {/* This is a temporary table that will be replaced by a component that will list an education + work timeline.  */}
-                    <table className='exp'>
+                    {/* <table className='exp'>
                         <thead>
                             <tr>
                                 <th>Institute</th>
@@ -46,7 +48,7 @@ export default function ExperiencePage() {
                                 <th>2008</th>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> */}
                     {/* End of section that is to be replaced. */}
 
                 </div>

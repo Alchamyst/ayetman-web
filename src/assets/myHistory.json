@@ -1,0 +1,37 @@
+[
+    {
+        "organisation": "Ocere Ltd.",
+        "designation": "Paid Search Manager",
+        "startYearMonth" : "Jan 2019",
+        "endYearMonth": "Sep 2023",
+        "description": "Some information about my job role will go here.."
+    },
+    {
+        "organisation": "Ocere Ltd.",
+        "designation": "Digital Marketing Executive",
+        "startYearMonth" : "Apr 2016",
+        "endYearMonth": "Jan 2019",
+        "description": "Some information about my job role will go here.."
+    },
+    {
+        "organisation": "Ocere Ltd.",
+        "designation": "Customer Service Apprenticeship",
+        "startYearMonth" : "Jan 2014",
+        "endYearMonth": "Apr 2016",
+        "description": "Some information about my apprenticeship will go here."
+    },
+    {
+        "organisation": "Staffordshire University",
+        "designation": "BSc Multiplayer Online Games Design",
+        "startYearMonth" : "Sep 2008",
+        "endYearMonth": "Jul 2011",
+        "description": "Some information about my degree will be going here as a short explanation of this positiong."
+    },
+    {
+        "organisation": "Evesham College",
+        "designation": "BTEC National Diploma for IT Practitioners",
+        "startYearMonth" : "Sep 2006",
+        "endYearMonth": "Jun 2008",
+        "description": "Some information about my college qualificaiton will be going here as a short explanation of this positiong."
+    }
+]
