@@ -1,32 +1,98 @@
 .history-compact {
     background-color: #171C30;
-    color: white;
+    color: #bdbdbd;
+
+    cursor: pointer;
 
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     margin-top: 1em;
     padding: 1em 1em 1em 1em;
 
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    justify-content:flex-start;
 }
 
 .history-compact-expanded {
     border-radius: 1em 1em 0em 0em;
 }
 
+.expander {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.expander-open {
+
+}
+
+.expander > p, .expander-open > p {
+    margin: 0em  0em 0em;
+    padding: 0em 1em 0em 0em;
+}
+
+.history-compact-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.history-titles {
+    margin: 0 auto 0 0
+}
+
+.history-designation {
+    color: #bdbdbd;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.history-organisation {
+    color: #8d8d8d;
+    font-size: 1.1em;
+    padding: 0 0 0 1em ;
+    margin: 0;
+}
+
+.history-dates {
+    color: #bdbdbd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    width: max-content;
+}
+
+.history-start-date {
+    font-size: 1.1em;
+    margin: 0 0 0 0;
+}
+
+.history-end-date {
+    font-size: 1.1em;
+    margin: 0 0 0 0;
+}
+
 .history-expanded {
     background-color: #373C60;
-    color: white;
+    color: #bdbdbd;
 
     border-radius: 0em 0em 1em 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     margin-top: 0em;
-    padding: 1em 1em 1em 1em;
+    padding: 0.5em 1em 0.5em 1em;
 
     /* display: flex;
     flex-direction: row;
@@ -34,15 +100,12 @@
     justify-content: flex-start; */
 }
 
-.expander {
+.history-description {
 
 }
 
-.expander-open{
-
+.history-description > p  {
+    margin: 0;
 }
 
-.expander > p, .expander-open > p {
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 0em 0em;
-}
+/* box-sizing: border-box; */

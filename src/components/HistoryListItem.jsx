@@ -14,17 +14,20 @@ export default function HistoryListItem(props) {
     return (
         <div className='history-list-item'>
             <div className={`history-compact ${props.isExpanded ? "history-compact-expanded": ""}`} onClick={handleOnClick}>
-                <div className={`expander${props.isExpanded ? "-open" : ""}`}>
+                <div className={`expander ${props.isExpanded ? "expander-open" : ""}`}>
                     {!props.isExpanded && <p>&#x25B6;</p>}
                     {props.isExpanded && <p>&#x25BC;</p>}
                 </div>
-                <div className='history-titles'>
-                    <p className='history-designation'>{props.designation}</p>
-                    <p className='history-organisation'>{props.organisation}</p>
-                </div>
-                <div className='history-dates'>
-                    <p className='history-start-date'>{props.startYearMonth}</p>
-                    <p className='history-end-date'>{props.endYearMonth}</p>
+                <div className='history-compact-wrapper'>
+
+                    <div className='history-titles'>
+                        <p className='history-designation'>{props.designation}</p>
+                        <p className='history-organisation'>{props.organisation}</p>
+                    </div>
+                    <div className='history-dates'>
+                        <p className='history-end-date'>End: {props.endYearMonth}</p>
+                        <p className='history-start-date'>Start: {props.startYearMonth}</p>
+                    </div>
                 </div>
             </div>
             {props.isExpanded && <div className='history-expanded'>
