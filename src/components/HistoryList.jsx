@@ -19,8 +19,8 @@ export default function HistoryList(props) {
                 id={key}
                 organisation={historyItem.organisation} 
                 designation={historyItem.designation}
-                startYearMonth={historyItem.startYearMonth}
-                endYearMonth={historyItem.endYearMonth}
+                startDate={historyItem.startDate}
+                endDate={historyItem.endDate}
                 description={historyItem.description}
                 isExpanded={activeIndex === key}
                 setActivePanel={setActivePanel}

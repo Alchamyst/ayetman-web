@@ -2,36 +2,36 @@
     {
         "organisation": "Ocere Ltd.",
         "designation": "Paid Search Manager",
-        "startYearMonth" : "Jan 2019",
-        "endYearMonth": "Sep 2023",
+        "startDate":"2019-01-01",
+        "endDate":"2023-09-01",
         "description": "Some information about my job role will go here.."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Digital Marketing Executive",
-        "startYearMonth" : "Apr 2016",
-        "endYearMonth": "Jan 2019",
+        "startDate":"2016-04-01",
+        "endDate":"2019-01-01",
         "description": "Some information about my job role will go here.."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Customer Service Apprenticeship",
-        "startYearMonth" : "Jan 2014",
-        "endYearMonth": "Apr 2016",
+        "startDate":"2014-01-01",
+        "endDate":"2016-04-01",
         "description": "In this role, I conducted vital backlink analyses, managed PPC accounts for Google and Bing Ads, and rectified Google SEO penalties with link disavows, ensuring our clients' online success."
     },
     {
         "organisation": "Staffordshire University",
         "designation": "BSc Multiplayer Online Games Design",
-        "startYearMonth" : "Sep 2008",
-        "endYearMonth": "Jul 2011",
+        "startDate":"2008-09-01",
+        "endDate":"2011-07-01",
         "description": "Some information about my degree will be going here as a short explanation of this position."
     },
     {
         "organisation": "Evesham College",
         "designation": "BTEC National Diploma for IT Practitioners",
-        "startYearMonth" : "Sep 2006",
-        "endYearMonth": "Jun 2008",
+        "startDate":"2006-09-01",
+        "endDate":"2008-06-01",
         "description": "Some information about my college qualificaiton will be going here as a short explanation of this position."
     }
 ]

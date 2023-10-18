@@ -38,6 +38,7 @@
 
 .history-compact-wrapper {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
@@ -64,25 +65,27 @@
 }
 
 .history-dates {
+    box-sizing: border-box;
     color: #bdbdbd;
-    align-items: center;
+    align-items:flex-end;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 0 0 0;
     width: max-content;
+    min-width: 10em;
 }
 
-.history-start-date {
+.history-start-date, .history-end-date, .history-start-date-short, .history-end-date-short {
     font-size: 1.1em;
     margin: 0 0 0 0;
 }
 
-.history-end-date {
-    font-size: 1.1em;
-    margin: 0 0 0 0;
+.history-start-date-short, .history-end-date-short {
+    display: none;
 }
+
 
 .history-expanded {
     background-color: #373C60;
@@ -93,19 +96,83 @@
 
     margin-top: 0em;
     padding: 0.5em 1em 0.5em 1em;
-
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start; */
 }
 
 .history-description {
 
 }
 
-.history-description > p  {
+.history-description > p {
+    font-size: 1.1em;
     margin: 0;
 }
 
-/* box-sizing: border-box; */
+.history-description-dates {
+    display: none;
+}
+
+.history-description-dates > p {
+    font-size: 0.9em;
+    margin: 0 0 0 0; 
+}
+
+@media only screen and (max-width: 995px) {
+    .expander > p, .expander-open > p {
+        margin: 0em  0em 0em 0em;
+        padding: 0em 0.75em 0em 0em;
+    }
+    .history-designation {
+        font-size: 1.1em;
+    }
+    .history-organisation, .history-start-date , .history-end-date, .history-description > p {
+        font-size: 1em;
+    }
+    .history-organisation {
+        padding: 0 0 0 0.2em ;
+    }
+}
+
+
+@media only screen and (max-width: 675px) {
+    .expander {
+       display: none;
+    }
+    .history-start-date, .history-end-date{
+        display: none;   
+    }
+    .history-start-date-short, .history-end-date-short {
+        font-size: 1em;
+        display: unset;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .history-designation {
+        font-size: 1em;
+    }
+    .history-organisation, .history-start-date , .history-end-date, .history-description > p  {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .history-dates {
+        display: none;   
+    }
+    .hist-desc-left, .hist-desc-right  {
+        padding-right: 0.5em;
+    }
+    .history-description-dates {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin: 0;
+        padding: 0 0em 1em 0em;
+    }
+    .history-description-dates > p {
+        padding: 0em 0.2em 0em 0.2em;
+    }
+}

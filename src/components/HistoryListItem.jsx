@@ -24,14 +24,20 @@ export default function HistoryListItem(props) {
                         <p className='history-designation'>{props.designation}</p>
                         <p className='history-organisation'>{props.organisation}</p>
                     </div>
-                    <div className='history-dates'>
-                        <p className='history-end-date'>End: {props.endYearMonth}</p>
-                        <p className='history-start-date'>Start: {props.startYearMonth}</p>
+                     <div className='history-dates'>
+                        <p className='history-end-date'>{new Date(props.endDate).toLocaleString('default', { month: 'long', year: 'numeric' })}</p>
+                        <p className='history-start-date'>{new Date(props.startDate).toLocaleString('default', { month: 'long', year: 'numeric' })}</p>
+                        <p className='history-end-date-short'>{new Date(props.endDate).toLocaleString('default', { month: 'numeric', year: 'numeric' })}</p>
+                        <p className='history-start-date-short'>{new Date(props.startDate).toLocaleString('default', { month: 'numeric', year: 'numeric' })}</p>
                     </div>
                 </div>
             </div>
             {props.isExpanded && <div className='history-expanded'>
                 <div className='history-description'>
+                    <div className='history-description-dates'>
+                        <p className='hist-desc-left'>Starting: {new Date(props.startDate).toLocaleString('default', { month: 'short', year: 'numeric' })}</p>
+                        <p className='hist-desc-right'>Ending: {new Date(props.endDate).toLocaleString('default', { month: 'short', year: 'numeric' })}</p>
+                    </div>
                     <p>{props.description}</p>
                 </div>
             </div>}
