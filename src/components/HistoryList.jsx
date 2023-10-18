@@ -1,5 +1,5 @@
 import '../styles/historyList.css';
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import HistoryListItem from './HistoryListItem';
 
 export default function HistoryList(props) {

@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import '../styles/historyListItem.css';
 
 export default function HistoryListItem(props) {
