@@ -51,6 +51,9 @@
 .project-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
     justify-content: space-around;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
