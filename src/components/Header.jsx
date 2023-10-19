@@ -1,5 +1,4 @@
 import '../styles/header.css';
-// import reactLogo from './assets/react.svg'
 
 export default function Header(props) {
     return(
@@ -7,10 +6,12 @@ export default function Header(props) {
             <div className='header-wrapper'>
                 <div className='header'>
                     <div className='site-title'>
-                        <h3>&lt;Alchamyst/&gt;</h3>
-                        <h4>Ashley Yetman</h4>
-                    </div>            
-                    {/* <img src={reactLogo} className="logo" alt="React logo" /> */}
+                        <a href='/'>
+                            <h3>&lt;Alchamyst/&gt;</h3>
+                            <h4>Ashley Yetman</h4>
+                        </a> 
+                    </div>    
+                           
                     {props.children}
                 </div>
             </div>
