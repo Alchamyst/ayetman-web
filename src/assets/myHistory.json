@@ -4,34 +4,39 @@
         "designation": "Paid Search Manager",
         "startDate":"2019-01-01",
         "endDate":"2023-09-01",
-        "description": "Some information about my job role will go here.."
+        "description1": "Description 1 to be put here.",
+        "description2": "Description 2 to be put here."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Digital Marketing Executive",
         "startDate":"2016-04-01",
         "endDate":"2019-01-01",
-        "description": "Some information about my job role will go here.."
+        "description1": "During my tenure in this role I managed PPC campaigns across Google Ads, Bing Ads and Facebook Ads platforms and was responsible for overseeing a number of critical IT systems, providing first and second-line IT support to users across the organisation.",
+        "description2": "Responsibilities included the creation of effective PPC landing pages and the implementation of necessary conversion tracking and affiliate tracking systems. I also played a key role in introducing Agile practices to the organization, including training teams and implementing processes such as Kanban boards, daily stand-ups, and sprints to enhance business operations."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Customer Service Apprenticeship",
         "startDate":"2014-01-01",
         "endDate":"2016-04-01",
-        "description": "In this role, I conducted vital backlink analyses, managed PPC accounts for Google and Bing Ads, and rectified Google SEO penalties with link disavows, ensuring our clients' online success."
+        "description1": "My role focused on supporting the account manager team internally. I conducted SEO backlink analysis and on-site reviews for our clients, working alongside the account manager team to devise effective SEO strategies. I also played a key role in resolving Google SEO penalties through link disavow submissions. My responsibilities were expanded after a year to include the management of Google Ads and Bing Ads accounts.",
+        "description2": ""
     },
     {
         "organisation": "Staffordshire University",
         "designation": "BSc Multiplayer Online Games Design",
         "startDate":"2008-09-01",
         "endDate":"2011-07-01",
-        "description": "Some information about my degree will be going here as a short explanation of this position."
+        "description1": "This three-year undergraduate course centred on game design and programming, providing a comprehensive range of skills. Subjects covered include: game engines and physics, rapid prototyping, design documentation, networking with LANs and WANs, and game production and testing.",
+        "description2": ""
     },
     {
         "organisation": "Evesham College",
         "designation": "BTEC National Diploma for IT Practitioners",
         "startDate":"2006-09-01",
         "endDate":"2008-06-01",
-        "description": "Some information about my college qualificaiton will be going here as a short explanation of this position."
+        "description1": "My national diploma encompassed a wide spectrum of IT disciplines, I gained comprehensive knowledge in software development, database management systems, website management and development, computer hardware, computer systems analysis and design, and computational methods.",
+        "description2": ""
     }
 ]

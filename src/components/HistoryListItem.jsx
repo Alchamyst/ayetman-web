@@ -38,7 +38,8 @@ export default function HistoryListItem(props) {
                         <p className='hist-desc-left'>Starting: {new Date(props.startDate).toLocaleString('default', { month: 'short', year: 'numeric' })}</p>
                         <p className='hist-desc-right'>Ending: {new Date(props.endDate).toLocaleString('default', { month: 'short', year: 'numeric' })}</p>
                     </div>
-                    <p>{props.description}</p>
+                    <p className='hist-desc-01'>{props.description1}</p>
+                    {props.description2 && <p className='hist-desc-02'>{props.description2}</p>}
                 </div>
             </div>}
         </div>

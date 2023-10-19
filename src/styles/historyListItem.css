@@ -107,6 +107,10 @@
     margin: 0;
 }
 
+.hist-desc-02 {
+    padding-top: 1em;
+}
+
 .history-description-dates {
     display: none;
 }
