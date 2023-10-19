@@ -113,7 +113,8 @@
 
 .history-description-dates > p {
     font-size: 0.9em;
-    margin: 0 0 0 0; 
+    margin: 0; 
+    padding: 0;
 }
 
 @media only screen and (max-width: 995px) {
@@ -160,19 +161,18 @@
     .history-dates {
         display: none;   
     }
-    .hist-desc-left, .hist-desc-right  {
+    /* .hist-desc-left, .hist-desc-right  {
         padding-right: 0.5em;
-    }
+    } */
     .history-description-dates {
+        color: #9d9d9d;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
+        column-gap: 1em;
         justify-content: space-between;
 
         margin: 0;
-        padding: 0 0em 1em 0em;
-    }
-    .history-description-dates > p {
-        padding: 0em 0.2em 0em 0.2em;
+        padding: 0 0em 0.5em 0em;
     }
 }
