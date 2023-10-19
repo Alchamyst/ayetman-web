@@ -27,9 +27,9 @@
     justify-content:space-between;
 }
 
-.expander-open {
+/* .expander-open {
 
-}
+} */
 
 .expander > p, .expander-open > p {
     margin: 0em  0em 0em;
@@ -98,9 +98,9 @@
     padding: 0.5em 1em 0.5em 1em;
 }
 
-.history-description {
+/* .history-description {
 
-}
+} */
 
 .history-description > p {
     font-size: 1.1em;
@@ -108,7 +108,7 @@
 }
 
 .hist-desc-02 {
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 .history-description-dates {

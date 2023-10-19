@@ -20,7 +20,7 @@ export default function AboutMePage() {
                     </p>
                 </div> 
             </main>
-            <SocialLinks />
+            <SocialLinks />   
         </div>
     );
 }

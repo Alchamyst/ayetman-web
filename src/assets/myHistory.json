@@ -1,26 +1,26 @@
 [
     {
         "organisation": "Ocere Ltd.",
-        "designation": "Paid Search Manager",
+        "designation": "Paid Search & Senior IT Manager",
         "startDate":"2019-01-01",
         "endDate":"2023-09-01",
-        "description1": "I managed advertising campaigns across Google Ads and Bing Ads platforms, which also involved collaborating with clients' web development teams to optimize on-site SEO and tracking elements, and the user experience of landings pages and webforms across various platforms.",
-        "description2": "In my capacity as Senior IT Manager also oversaw critical IT systems and providing support to users across the organisation. I also developed custom Google Apps Scripts for Google Sheets for use in teams across the organisation, automating tasks and simplifying processes."
+        "description1": "As Senior IT Manager, I supervised essential IT systems and created Google Apps Scripts to automate tasks for the account manager and SEO support teams.",
+        "description2": "I managed Google Ads and Bing Ads while providing consultancy to clients' web development teams to improve site structure for SEO, address tracking code issues, and enhance overall user experience."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Digital Marketing Executive",
         "startDate":"2016-04-01",
         "endDate":"2019-01-01",
-        "description1": "During my tenure in this role I managed PPC campaigns across Google Ads, Bing Ads and Facebook Ads platforms and was responsible for overseeing a number of critical IT systems, providing first and second-line IT support to users across the organisation.",
-        "description2": "Responsibilities included the creation of effective PPC landing pages and the implementation of necessary conversion tracking and affiliate tracking systems. I also played a key role in introducing Agile practices to the organization, including training teams and implementing processes such as Kanban boards, daily stand-ups, and sprints to enhance business operations."
+        "description1": "After completing my apprenticeship with Ocere, my role expanded to IT Manager, overseeing critical systems and providing first and second-line IT support across the organization.",
+        "description2": "I continued to oversee PPC landing page creation, implement conversion and affiliate tracking code, and provided technical SEO support and guidance to account managers."
     },
     {
         "organisation": "Ocere Ltd.",
-        "designation": "Customer Service Apprenticeship",
+        "designation": "Digital Marketing Apprenticeship",
         "startDate":"2014-01-01",
         "endDate":"2016-04-01",
-        "description1": "My role focused on supporting the account manager team internally. I conducted SEO backlink analysis and on-site reviews for our clients, working alongside the account manager team to devise effective SEO strategies.",
+        "description1": "I joined Ocere in a technical role supporting the account manager team to help devise and execute effective SEO strategies for our clients.  ",
         "description2": "My responsibilities were expanded after a year to include the management of Google Ads and Bing Ads accounts."
     },
     {
@@ -36,7 +36,7 @@
         "designation": "BTEC National Diploma for IT Practitioners",
         "startDate":"2006-09-01",
         "endDate":"2008-06-01",
-        "description1": "My national diploma encompassed a wide spectrum of IT disciplines, I gained comprehensive knowledge in software development, database management systems, website management and development, computer hardware, computer systems analysis and design, and computational methods.",
-        "description2": ""
+        "description1": "My national diploma encompassed a wide spectrum of IT disciplines over two years of study.  ",
+        "description2": "Subjects covered include: software development, database management systems, website development, computer hardware, and computational methods."
     }
 ]
