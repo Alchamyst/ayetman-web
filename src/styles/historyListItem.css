@@ -1,0 +1,182 @@
+.history-compact {
+    background-color: #171C30;
+    color: #bdbdbd;
+
+    cursor: pointer;
+
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content:flex-start;
+}
+
+.history-compact-expanded {
+    border-radius: 1em 1em 0em 0em;
+}
+
+.expander {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+/* .expander-open {
+
+} */
+
+.expander > p, .expander-open > p {
+    margin: 0em  0em 0em;
+    padding: 0em 1em 0em 0em;
+}
+
+.history-compact-wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.history-titles {
+    margin: 0 auto 0 0
+}
+
+.history-designation {
+    color: #bdbdbd;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.history-organisation {
+    color: #8d8d8d;
+    font-size: 1.1em;
+    padding: 0 0 0 1em ;
+    margin: 0;
+}
+
+.history-dates {
+    box-sizing: border-box;
+    color: #bdbdbd;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    width: max-content;
+    min-width: 10em;
+}
+
+.history-start-date, .history-end-date, .history-start-date-short, .history-end-date-short {
+    font-size: 1.1em;
+    margin: 0 0 0 0;
+}
+
+.history-start-date-short, .history-end-date-short {
+    display: none;
+}
+
+
+.history-expanded {
+    background-color: #373C60;
+    color: #bdbdbd;
+
+    border-radius: 0em 0em 1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin-top: 0em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+/* .history-description {
+
+} */
+
+.history-description > p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.hist-desc-02 {
+    padding-top: 0.5em;
+}
+
+.history-description-dates {
+    display: none;
+}
+
+.history-description-dates > p {
+    font-size: 0.9em;
+    margin: 0; 
+    padding: 0;
+}
+
+@media only screen and (max-width: 995px) {
+    .expander > p, .expander-open > p {
+        margin: 0em  0em 0em 0em;
+        padding: 0em 0.75em 0em 0em;
+    }
+    .history-designation {
+        font-size: 1.1em;
+    }
+    .history-organisation, .history-start-date , .history-end-date, .history-description > p {
+        font-size: 1em;
+    }
+    .history-organisation {
+        padding: 0 0 0 0.2em ;
+    }
+}
+
+
+@media only screen and (max-width: 675px) {
+    .expander {
+       display: none;
+    }
+    .history-start-date, .history-end-date{
+        display: none;   
+    }
+    .history-start-date-short, .history-end-date-short {
+        font-size: 1em;
+        display: unset;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .history-designation {
+        font-size: 1em;
+    }
+    .history-organisation, .history-start-date , .history-end-date, .history-description > p  {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .history-dates {
+        display: none;   
+    }
+    /* .hist-desc-left, .hist-desc-right  {
+        padding-right: 0.5em;
+    } */
+    .history-description-dates {
+        color: #9d9d9d;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1em;
+        justify-content: space-between;
+
+        margin: 0;
+        padding: 0 0em 0.5em 0em;
+    }
+}

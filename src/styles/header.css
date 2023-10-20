@@ -8,8 +8,14 @@
     padding: 0.5em 2em;
 }
 
+.header > a {
+    margin: 0;
+    padding: 0;
+}
+
 .header-bg {
     background-color: #4D5F6D;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
 }
 
@@ -19,25 +25,40 @@
     width: 100%;
 }
 
+.site-title {
+    margin: 0.5em;
+}
+
 .header h3 {
+    text-align: center;
     color: #e4e3ff; 
     line-height: 1;
     
     display: block;
-    margin-block-start: 0.5em;
-    margin-block-end: 0em;
+    margin: 0;
+    padding: 0;
 }
 
 .header h4 {
+    text-align: left;
     color: #bebebe; 
     line-height: 1;
-    margin-block-start: 0.25em;
-    margin-block-end: 0.5em;    
+    margin: 0 0 0 1em;
+
+    padding: 0;
+}
+
+@media only screen and (max-width: 995px){
+    .header{
+        place-items:unset;
+        padding: 0.25em 1em;
+
+    }
 }
 
 @media only screen and (max-width: 525px) {
     .header {
-        padding: 0.25em 1em;
+        padding: 0.25em 0.25em;
     }
     .header h3 {
         font-size: 2em;
@@ -48,9 +69,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .header {
-        padding: 0.25em 0.5em;
-    }
     .header h3 {
         font-size: 1.5em;
     }
@@ -59,11 +77,14 @@
         }  
 }
 
-@media only screen and (max-width: 374px) {
-    .header {
-        padding: 0 0.5em;
-    }
+@media only screen and (max-width: 395px) {
     .header h3, .header h4  {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .header {
+      min-width: 250px;
     }
 }

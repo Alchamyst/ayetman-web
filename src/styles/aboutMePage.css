@@ -4,12 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 65em;
+    /* max-width: 65em; */
 }
 
 .about-me h1 {
     text-align: center;
     flex-basis: 100%;
+    margin-bottom: 0.5em;
 }
 
 .ash-img {

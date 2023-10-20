@@ -1,51 +1,54 @@
 .contact-form {
-    background-color: #8da6b6;
+    background-color: #336699;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 100%;
-    padding: 1em;
+    padding: 1em 1em;
     margin-bottom: 0.75em;
-    max-width: 31em;
-    width: 100%
+    max-width: 27em;
+    width: 100%;
 }
 
 .contact-form label {
+    box-sizing: border-box;
+    color: #cee3f8;
     display: block;
     margin: 0 auto 0 auto;
-    padding: 0.75em 0 0.25em 0em;
-    max-width: 26em;
+    max-width: 30em;
+    padding: 0.25em 0.25em 0.25em 1em;
     width: 100%
 }
 
 .contact-form input {
-    background-color: #8da6b6;
+    background-color: #e4e3ff;
     border: 1px solid #171c30;
     border-radius: 0.5em;
+    box-sizing: border-box;
+    color: #171c30;
     display: block;
     margin: 0 auto 0 auto;
-    padding-bottom: 0.75em;
-    padding-left: 1em;
-    padding-top: 0.75em;
+    padding: 0.75em 1em;
     max-width: 30em;
     width: 100%
 }
 
 .contact-form textarea {
-    background-color: #8da6b6;
+    box-sizing: border-box;
+    background-color: #e4e3ff;
     border: 1px solid #171c30;
     border-radius: 0.5em;
+    color: #171c30;
     display: block;
     height: 10em;
     margin: 0 auto 0 auto;
-    padding-bottom: 0.75em;
-    padding-left: 1em;
-    padding-top: 0.75em;
+    padding: 0.75em 1em;
     resize: none;
     max-width: 30em;
     width: 100%
 }
 
 .contact-form button {
+    box-sizing: border-box;
     background-color: #eeac31;
     color:#171c30;
     border: 1px solid #171c30;
@@ -66,18 +69,31 @@
     color:#171c30;
 }
 
-.contact-form input:focus, .contact-form textarea:focus, .contact-form button:focus {
-    outline: 0.1em solid #eeac31;
+.contact-form input:focus, .contact-form textarea:focus  {
+    outline: 0.2em solid #eeac31;
+}
+.contact-form button:focus {
+    outline: 0.2em solid #31d190;
 }
 
-.required {
-    color: #D30000;
+.form-error {
+    color: #FFd300;
+    font-size: 1.2em;
     text-align: center;
+    text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
+
+    text-decoration: none;
+    box-shadow:none;
+    outline: none;
 }
 
 .success {
-    color:darkgreen;
+    color:#70DD00;
+    text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
+
+    font-size: 1.25em;
     text-align: center;
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -96,5 +112,11 @@
         background-color: #eeac31;
         color:#171c30;
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .contact-form button {
+        font-size: 1.2em;
     }
 }
