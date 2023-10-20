@@ -8,10 +8,10 @@
             "JSON",
             "MySQL"
         ],
-        "image": "",
+        "image": "node-mysql-login.png",
         "github": "https://github.com/Alchamyst/node-mysql-login",
         "liveUrl": "https://ashley-yetman.co.uk",
-        "description": "An express webserver that uses socket.io to create virtual chatrooms."
+        "description": "An express webserver that uses a MySQL server to manage user logins, to facilitate access to restricted or user specific pages. Using Express routers was setup to handle the rendering of pages and another router setup to handle user authentication for pages, and the reistration and login/out process. "
     },
     {
         "name": "Expensify App",
@@ -60,7 +60,7 @@
             "RESTful APIs",
             "MongoDB"
         ],
-        "image": "",
+        "image": "task-manager-api.png",
         "github": "https://github.com/Alchamyst/task-manager-api",
         "liveUrl": "",
         "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
@@ -71,7 +71,7 @@
             "Javascript",
             "Node.js"
         ],
-        "image": "",
+        "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",
         "liveUrl": "",
         "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
