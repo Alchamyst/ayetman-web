@@ -14,7 +14,7 @@ export default function Project(props) {
                 <div className='project-wrapper'>
                     <div className='project-info'>
                         <div className='project-image-container'>
-                            {props.image && <img src={new URL(`../assets/project-images/${props.image}`, import.meta.url).href} />}
+                            {props.image && <img src={new URL(`../assets/project-images/${props.image}`, import.meta.url).href} alt={`Screenshot of ${props.name}`} />}
                             {!props.image && <img src={noImage} />}
                         </div>
                         <div className='project-links'>

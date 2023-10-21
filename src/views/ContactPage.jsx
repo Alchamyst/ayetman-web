@@ -7,7 +7,7 @@ export default function ContactPage() {
             <main>
                 <div className='content-box contact-me-page'>
                     <h1>Contact Me</h1>
-                    <p>Please fill out the form below or visit my <a href='https://www.linkedin.com/in/ashley-yetman/'>LinkedIn</a> profile to get in contact.</p>
+                    <p>Please fill out the form below or visit my <a href='https://www.linkedin.com/in/ashley-yetman/'>LinkedIn</a></p>
                     <ContactForm />
                 </div>
             </main>

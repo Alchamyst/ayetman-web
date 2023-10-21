@@ -12,7 +12,7 @@ export default function AboutMePage() {
                 <div className='home-page content-box'>
                     <div className='about-me'>
                         <div className='hey-img-box'>
-                            <img className='ash-img' src={ashleyImg} />
+                            <img className='ash-img' src={ashleyImg} alt="photo of Ashley." />
                             <h1>Hey, I'm Ashley.</h1>
                         </div>
                         <p>
