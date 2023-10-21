@@ -16,7 +16,7 @@ export default function AboutMePage() {
                             <h1>Hey, I'm Ashley.</h1>
                         </div>
                         <p>
-                            A passionate web developer from the West Midlands, UK. 
+                            A passionate web developer from the West Midlands, England. 
                             I'm on a mission to craft exceptional digital experiences, ignited by my journey through technology and marketing.
                         </p>
                         <p>
