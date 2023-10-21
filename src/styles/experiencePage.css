@@ -26,21 +26,3 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
-.exp {
-    border-collapse: collapse;
-    margin: 1em auto 1em 1em;
-    /* width: 45em; */
-} 
-.exp table, th, td {
-    border: 1px solid;
-    border-color: #171C30;
-    padding: 1em;
-}
-.exp thead {
-    background-color: #171C30;
-}
-.exp thead th {
-    color: #dcd9d8;
-    font-weight: bold;
-}

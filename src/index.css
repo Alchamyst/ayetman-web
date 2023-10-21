@@ -55,6 +55,10 @@ html {
   overflow-y: scroll;
 }
 
+p {
+  margin: 0;
+}
+
 .content-box {
     background-color: #8da6b6;
     border-radius: 1em;

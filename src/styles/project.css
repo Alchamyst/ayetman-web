@@ -44,9 +44,10 @@
 .project-image-container img {
     border-radius: 5%;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    height: 15em;
-    width: 15em;
-    
+    max-height: 15em;
+    max-width: 15em;
+    /* height: 15em;
+    width: 15em; */
 }
 
 .project-links {
@@ -80,10 +81,10 @@
     padding: 0em 0.5em 0em 0.5em;
 }
 
-.project-links a:hover::after{
+/* .project-links a:hover::after{
     content: ' \00bb';
     transition: 0.5s;
-}
+} */
 
 .project-skills {
     margin: 0em 0em 1em 1em;
@@ -105,10 +106,8 @@
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
     .project-image-container img {
-        /* height: 10em;
-        width: 10em; */
-        min-height: 10em;
-        min-width: 10em;
+        max-height: 12.5em;
+        max-width: 12.5em;
     }
     .project-links > a {
         margin-left: 0.2em;
@@ -117,6 +116,9 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .project-image-container img {
+        max-width: 100%;
+    }
     .project-wrapper {
         flex-wrap: wrap;
         justify-content: space-evenly;

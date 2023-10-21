@@ -11,22 +11,24 @@ const databaseSkills = ['Firebase','MongoDB','MySQL'];
 export default function ExperiencePage() {
     return(
         <div className='main'>
-            <main className='content-box'>
-                <div className='section-skills'>
-                    <h1>Development Skills</h1>
-                    <h2>Programming Languages</h2>
-                    <ListBlock list={programmingSkills} />
-                    <h2>Frameworks</h2>
-                    <ListBlock list={frameworkSkills} />
-                    <h2>Web Technologies</h2>
-                    <ListBlock list={webTechSkills} />
-                    <h2>Database Management</h2>
-                    <ListBlock list={databaseSkills} />
-                </div>
+            <main >
+                <div className='content-box'>
+                    <div className='section-skills'>
+                        <h1>Development Skills</h1>
+                        <h2>Programming Languages</h2>
+                        <ListBlock list={programmingSkills} />
+                        <h2>Frameworks</h2>
+                        <ListBlock list={frameworkSkills} />
+                        <h2>Web Technologies</h2>
+                        <ListBlock list={webTechSkills} />
+                        <h2>Database Management</h2>
+                        <ListBlock list={databaseSkills} />
+                    </div>
 
-                <div className='section-history'>
-                    <h1>My History</h1>
-                    <HistoryList history={myHistory} />
+                    <div className='section-history'>
+                        <h1>My History</h1>
+                        <HistoryList history={myHistory} />
+                    </div>
                 </div>
 
             </main>

@@ -18,8 +18,8 @@ export default function Project(props) {
                             {!props.image && <img src={noImage} />}
                         </div>
                         <div className='project-links'>
-                            <a href={props.github}>View GitHub</a> 
-                            {props.liveUrl && <a href={props.liveUrl}>Live Project</a>}
+                            <a href={props.github}>View GitHub &#187;</a> 
+                            {props.liveUrl && <a href={props.liveUrl}>Live Project &#187;</a>}
                         </div>
                     </div>
 

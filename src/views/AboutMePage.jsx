@@ -3,21 +3,36 @@ import SocialLinks from '../components/SocialLinks';
 import ashleyImg from '../assets/ashley.jpg';
 
 export default function AboutMePage() {
-    return(
+    return(/* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content:flex-start; */
         <div className='main'>
             <main>
-                <div className='about-me content-box'>
-                    <h1>Hey, I'm Ashley.</h1>
-                    <img className='ash-img' src={ashleyImg} />
+                <div className='home-page content-box'>
+                    <div className='about-me'>
+                        <div className='hey-img-box'>
+                            <img className='ash-img' src={ashleyImg} />
+                            <h1>Hey, I'm Ashley.</h1>
+                        </div>
+                        <p>
+                            A passionate web developer from the West Midlands, UK. 
+                            I'm on a mission to craft exceptional digital experiences, ignited by my journey through technology and marketing.
+                        </p>
+                        <p>
+                            Join me on this exciting journey through the ever-evolving landscapes of JavaScript, Node.js, and React.  
+                        </p>
 
+                    </div>
+                    {/* <div className='my-coding'>
+                        <h2>My Technical Expertise</h2>
                     <p>
-                        A driven web developer and digital strategist with a strong foundation in the dynamic landscape of IT and online marketing.  
-                        My journey in the world of technology and marketing has equipped me with a unique blend of skills and insights.
+                        With a strong foundation in the fusion of IT and digital marketing, my journey has equipped me with a unique blend of skills. 
+                        I bring a wealth of technical expertise and a profound understanding of the digital realm to the world of web development. 
+                        My past roles have enabled me to collaborate effectively with development teams, shaping optimized user experiences that make a lasting impact. 
+                        My dedication to staying at the forefront of industry trends makes me a valuable asset for web development roles, ready to tackle challenges and bring innovation to every project.
                     </p>
-                    <p>
-                        When it comes to coding, my enthusiasm knows no bounds. JavaScript is my playground, and I thrive in the worlds of Node.js and React. 
-                        These skills have empowered me to collaborate effectively with clients' development teams, crafting optimized user experiences that leave a lasting impression.
-                    </p>
+                    </div> */}
                 </div> 
             </main>
             <SocialLinks />   
