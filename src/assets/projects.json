@@ -20,6 +20,7 @@
             "Javascript",
             "Node.js",
             "React",
+            "Jest",
             "Firebase"
         ],
         "image": "expensify.png",
@@ -46,7 +47,8 @@
         "skills": [
             "Javascript",
             "Node.js",
-            "React"
+            "React",
+            "JSON"
         ],
         "image": "indecision-app.png",
         "github": "https://github.com/Alchamyst/indecision-app",
@@ -74,7 +76,9 @@
         "name": "Node Weather Website",
         "skills": [
             "Javascript",
-            "Node.js"
+            "Node.js",
+            "JSON",
+            "RESTful APIs"
         ],
         "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",
