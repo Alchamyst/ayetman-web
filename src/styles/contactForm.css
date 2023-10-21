@@ -1,5 +1,6 @@
 .contact-form {
-    background-color: #336699;
+    /* background-color: #336699; */
+    background-color: #373C60;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 100%;
@@ -11,7 +12,7 @@
 
 .contact-form label {
     box-sizing: border-box;
-    color: #cee3f8;
+    color: #e4e3ff;
     display: block;
     margin: 0 auto 0 auto;
     max-width: 30em;
@@ -48,10 +49,13 @@
 }
 
 .contact-form button {
+    background-color: #171c30;
+    color:#bdbdbd;
+
     box-sizing: border-box;
-    background-color: #eeac31;
-    color:#171c30;
-    border: 1px solid #171c30;
+    /* background-color: #eeac31;
+    color:#171c30; */
+    border: 1px solid #bdbdbd;
     border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
@@ -65,15 +69,17 @@
 }
 
 .contact-form button:hover {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+    background-color: #eeac31;
     color:#171c30;
+    border: 1px solid #171c30;
 }
 
 .contact-form input:focus, .contact-form textarea:focus  {
     outline: 0.2em solid #eeac31;
 }
 .contact-form button:focus {
-    outline: 0.2em solid #31d190;
+    outline: 0.1em solid #eeac31;
 }
 
 .form-error {
@@ -81,14 +87,14 @@
     font-size: 1.2em;
     text-align: center;
     text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
-
+    padding-top: 0.75em;
     text-decoration: none;
     box-shadow:none;
     outline: none;
 }
 
 .success {
-    color:#70DD00;
+    color:#bdbdbd;
     text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
 
     font-size: 1.25em;
