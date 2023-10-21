@@ -28,7 +28,8 @@ export default function Project(props) {
                             <ListBlock list={props.skills} /> 
                         </div>
                         <div className='project-description'>  
-                            <p>{props.description}</p>
+                            <p>{props.description1}</p>
+                            <p>{props.description2}</p>
                         </div>
                     </div>
 

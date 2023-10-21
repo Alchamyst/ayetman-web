@@ -13,7 +13,8 @@ export default function ProjectsList() {
             image={project.image} 
             github={project.github}
             liveUrl={project.liveUrl}
-            description={project.description}
+            description1={project.description1}
+            description2={project.description2}
         />)
     });
 

@@ -7,7 +7,7 @@ export default function ProjectsPage() {
             <main>
                 <div className='content-box'>
                     <h1 className='projects-page-title'>My Projects</h1>
-                    <p className='projects-page-description'>Below are a sample of my personal projects with links to the source code and the live project, where available.</p>
+                    <p className='projects-page-description'>Here, you'll find a glimpse of my personal coding projects, complete with links to the source code and, whenever feasible, the live application for direct exploration.</p>
                 </div>
                 <ProjectsList />
             </main>

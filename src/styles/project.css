@@ -44,8 +44,9 @@
 .project-image-container img {
     border-radius: 5%;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    height: 12.5em;
-    width: 12.5em;
+    height: 15em;
+    width: 15em;
+    
 }
 
 .project-links {
@@ -104,8 +105,10 @@
         padding: 0.5em 0.5em 0.5em 0.5em;
     }
     .project-image-container img {
-        height: 10em;
-        width: 10em;
+        /* height: 10em;
+        width: 10em; */
+        min-height: 10em;
+        min-width: 10em;
     }
     .project-links > a {
         margin-left: 0.2em;

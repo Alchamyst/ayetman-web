@@ -10,8 +10,9 @@
         ],
         "image": "node-mysql-login.png",
         "github": "https://github.com/Alchamyst/node-mysql-login",
-        "liveUrl": "https://ashley-yetman.co.uk",
-        "description": "An express webserver that uses a MySQL server to manage user logins, to facilitate access to restricted or user specific pages. Using Express routers was setup to handle the rendering of pages and another router setup to handle user authentication for pages, and the reistration and login/out process. "
+        "liveUrl": "",
+        "description1": "An express webserver that uses a MySQL server to manage user logins, to facilitate access to restricted pages that are customised for logged-in users.",
+        "description2": "An Express router was setup to handle the rendering of pages with another router setup to handle user authentication. The two systems are combined to allow us to have pages that are viewable only by logged in users, allowing us to present information tailored to that user."
     },
     {
         "name": "Expensify App",
@@ -24,7 +25,8 @@
         "image": "expensify.png",
         "github": "https://github.com/Alchamyst/expensify-app",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
+        "description2": ""
     },
     {
         "name": "Chat App",
@@ -33,10 +35,11 @@
             "Node.js",
             "Websockets"
         ],
-        "image": "",
+        "image": "chat-app.png",
         "github": "https://github.com/Alchamyst/chat-app",
         "liveUrl": "",
-        "description": "Simple chat app created using nodejs and socket.io. Users can join virtual chatrooms and chat with other people who have joined a room of the same name."
+        "description1": "Simple chat app created using nodejs and socket.io. Users can join virtual chatrooms and chat with other people who have joined a room of the same name.",
+        "description2": ""
     },
     {
         "name": "Indecision App",
@@ -45,10 +48,11 @@
             "Node.js",
             "React"
         ],
-        "image": "",
+        "image": "indecision-app.png",
         "github": "https://github.com/Alchamyst/indecision-app",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
+        "description2": ""
     },
     {
         "name": "Task Manager API",
@@ -63,7 +67,8 @@
         "image": "task-manager-api.png",
         "github": "https://github.com/Alchamyst/task-manager-api",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
+        "description2": ""
     },
     {
         "name": "Node Weather Website",
@@ -74,6 +79,7 @@
         "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
+        "description2": ""
     }
 ]
