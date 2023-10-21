@@ -25,6 +25,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
+    width: 2em;
 }
 
 /* .expander-open {
@@ -32,6 +33,7 @@
 } */
 
 .expander > p, .expander-open > p {
+    font-size: 1em;
     margin: 0em  0em 0em;
     padding: 0em 1em 0em 0em;
 }
@@ -122,6 +124,9 @@
 }
 
 @media only screen and (max-width: 995px) {
+    .expander {
+        width: 1.5em;
+    }
     .expander > p, .expander-open > p {
         margin: 0em  0em 0em 0em;
         padding: 0em 0.75em 0em 0em;
@@ -139,9 +144,9 @@
 
 
 @media only screen and (max-width: 675px) {
-    .expander {
+    /* .expander {
        display: none;
-    }
+    } */
     .history-start-date, .history-end-date{
         display: none;   
     }
@@ -158,6 +163,11 @@
     }
     .history-organisation, .history-start-date , .history-end-date, .history-description > p  {
         font-size: 0.9em;
+    }
+    .expander > p, .expander-open > p {
+        font-size: 0.9em;
+        margin: 0em  0em 0em;
+        padding: 0em 0.5em 0em 0em;
     }
 }
 
