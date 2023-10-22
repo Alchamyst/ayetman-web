@@ -20,17 +20,19 @@ export default function AboutMePage() {
                             I'm on a mission to craft exceptional digital experiences, ignited by my journey through technology and marketing.
                         </p>
                         <p>
-                            Join me on this exciting journey through the ever-evolving landscapes of JavaScript, Node.js, and React.  
+                            Join me on this exciting journey through the ever-evolving landscapes of software development.  
                         </p>
 
                     </div>
                     <div className='my-coding'>
-                        <h2>My Technical Expertise (WORK IN PROGRESS)</h2>
+                        <h2>Embarking on the Code Voyage</h2>
                     <p>
                         With a strong foundation in the fusion of IT and digital marketing, my journey has equipped me with a unique blend of skills. 
-                        I bring a wealth of technical expertise and a profound understanding of the digital realm to the world of web development. 
-                        My past roles have enabled me to collaborate effectively with development teams, shaping optimized user experiences that make a lasting impact. 
-                        My dedication to staying at the forefront of industry trends makes me a valuable asset for web development roles, ready to tackle challenges and bring innovation to every project.
+                        While I'm still building my experience as a web developer, I bring a technical mindset and a deep understanding of the digital landscape to this evolving field.
+                    </p>
+                    <p>
+                        My past roles have enabled me to collaborate effectively with development teams, shaping optimised user experiences that make a lasting impact. 
+                        My dedication to staying at the forefront of industry trends makes me a valuable asset for web development roles, prepared to confront challenges and infuse innovation into each project.
                     </p>
                     </div>
                 </div> 

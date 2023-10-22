@@ -34,6 +34,10 @@
     justify-content:flex-start;
 }
 
+.my-coding > p {
+    padding-bottom: 1em;
+}
+
 
 
 .hey-img-box {
