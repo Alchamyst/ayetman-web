@@ -1,3 +1,20 @@
+.alchamyst-logo-64 {
+    display: none;
+    /* height: 7.5em; */
+    /* width: fit-content; */
+    /* max-height: 64px;
+    max-width: 64px; */
+    max-width: 100%;
+}
+.alchamyst-logo-128 {
+    display: none;
+    /* height: 7.5em; */
+    /* width: fit-content; */
+    /* max-height: 128px; */
+    /* max-width: 128px; */
+    max-width: 100%;
+}
+
 .header {
     /* background-color: #4D5F6D; */
     background-color: #3E4756;
@@ -53,7 +70,9 @@
     .header{
         place-items:unset;
         padding: 0.25em 1em;
-
+    }
+    .header > nav > ul {
+        padding-left: 0.5em;
     }
 }
 
@@ -69,23 +88,38 @@
         }      
 }
 
-@media only screen and (max-width: 480px) {
-    .header h3 {
+@media only screen and (max-width: 425px) {
+    /* .header h3 {
         font-size: 1.5em;
     }
     .header h4 {
         font-size: 1em;
-        }  
-}
-
-@media only screen and (max-width: 395px) {
+    } */
     .header h3, .header h4  {
         display: none;
     }
+    .alchamyst-logo-128 {
+        display: block;
+    }  
 }
+
+/* @media only screen and (max-width: 395px) {
+    .header h3, .header h4  {
+        display: none;
+    }
+    .alchamyst-logo-128 {
+        display: block;
+    }
+} */
 
 @media only screen and (max-width: 250px) {
     .header {
       min-width: 250px;
+    }
+    .alchamyst-logo-128 {
+        display: none;
+    }
+    .alchamyst-logo-64 {
+        display: block;
     }
 }
