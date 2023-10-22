@@ -43,20 +43,6 @@
         "description2": ""
     },
     {
-        "name": "Indecision App",
-        "skills": [
-            "Javascript",
-            "Node.js",
-            "React",
-            "JSON"
-        ],
-        "image": "indecision-app.png",
-        "github": "https://github.com/Alchamyst/indecision-app",
-        "liveUrl": "",
-        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
-        "description2": ""
-    },
-    {
         "name": "Task Manager API",
         "skills": [
             "Javascript",
@@ -68,6 +54,20 @@
         ],
         "image": "task-manager-api.png",
         "github": "https://github.com/Alchamyst/task-manager-api",
+        "liveUrl": "",
+        "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
+        "description2": ""
+    },
+    {
+        "name": "Indecision App",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "React",
+            "JSON"
+        ],
+        "image": "indecision-app.png",
+        "github": "https://github.com/Alchamyst/indecision-app",
         "liveUrl": "",
         "description1": "Here is a description of my app. This would talk about the experience and technology used in the app.",
         "description2": ""
