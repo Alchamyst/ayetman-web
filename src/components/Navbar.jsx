@@ -5,7 +5,7 @@ export default function Navbar(props) {
     const pageList = [
         { "path":"/", "label": "about-me" },
         { "path":"/experience", "label": "experience" },
-        // { "path":"/projects", "label": "projects" },
+        { "path":"/projects", "label": "projects" },
         { "path":"/contact", "label": "contact" },
     ];
 

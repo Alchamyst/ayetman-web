@@ -35,6 +35,10 @@ nav ul {
   filter: invert(10%);
 }
 
+.site-title > a {
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 995px) {
   nav ul {

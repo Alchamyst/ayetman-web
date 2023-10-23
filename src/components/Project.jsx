@@ -14,12 +14,12 @@ export default function Project(props) {
                 <div className='project-wrapper'>
                     <div className='project-info'>
                         <div className='project-image-container'>
-                            {props.image && <img src={new URL(`../assets/project-images/${props.image}`, import.meta.url).href} />}
+                            {props.image && <img src={new URL(`../assets/project-images/${props.image}`, import.meta.url).href} alt={`Screenshot of ${props.name}`} />}
                             {!props.image && <img src={noImage} />}
                         </div>
                         <div className='project-links'>
-                            <a href={props.github}>View GitHub</a> 
-                            {props.liveUrl && <a href={props.liveUrl}>Live Project</a>}
+                            <a href={props.github}>View GitHub &#187;</a> 
+                            {props.liveUrl && <a href={props.liveUrl}>Live Project &#187;</a>}
                         </div>
                     </div>
 
@@ -28,7 +28,8 @@ export default function Project(props) {
                             <ListBlock list={props.skills} /> 
                         </div>
                         <div className='project-description'>  
-                            <p>{props.description}</p>
+                            <p>{props.description1}</p>
+                            <p>{props.description2}</p>
                         </div>
                     </div>
 

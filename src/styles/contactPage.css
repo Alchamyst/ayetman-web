@@ -1,3 +1,20 @@
-.placeholder {
-    background-color:lime;
+.contact-me-page > p {
+    margin: 1em 0 1em 0;
+}
+
+.contact-me-page > p > a {
+    /* color: #336699; */
+    /* color: #F04A00; */
+    color: #c6570e;
+    text-decoration: underline;
+}
+
+.contact-me-page > p > a:hover {
+    /* color: #e6772e; */
+    text-decoration: none;
+}
+
+.contact-me-page > p > a:hover::after{
+    content: ' \00bb';
+    transition: 0.5s;
 }

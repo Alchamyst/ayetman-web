@@ -8,10 +8,11 @@
             "JSON",
             "MySQL"
         ],
-        "image": "",
+        "image": "node-mysql-login.png",
         "github": "https://github.com/Alchamyst/node-mysql-login",
-        "liveUrl": "https://ashley-yetman.co.uk",
-        "description": "An express webserver that uses socket.io to create virtual chatrooms."
+        "liveUrl": "",
+        "description1": "In this endeavour, I constructed an Express web server with capabilities for managing user logins with pages that can be restricted to logged-in users exclusively.",
+        "description2": "This project features a personalised profile page that presents user-specific information. It's intentionally inaccessible for users who are not logged in, promptly redirecting them to the home page."
     },
     {
         "name": "Expensify App",
@@ -19,12 +20,14 @@
             "Javascript",
             "Node.js",
             "React",
+            "Jest",
             "Firebase"
         ],
         "image": "expensify.png",
         "github": "https://github.com/Alchamyst/expensify-app",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "In this project, I created an expense management app, a user-friendly platform for tracking spending. Users are required to create an account to start logging their expenses, and all data is securely stored in Firebase.",
+        "description2": "This project initially served as a learning platform for mastering react-redux, and later evolved to incorporate robust functionality for data storage with Firebase."
     },
     {
         "name": "Chat App",
@@ -33,22 +36,11 @@
             "Node.js",
             "Websockets"
         ],
-        "image": "",
+        "image": "chat-app.png",
         "github": "https://github.com/Alchamyst/chat-app",
         "liveUrl": "",
-        "description": "Simple chat app created using nodejs and socket.io. Users can join virtual chatrooms and chat with other people who have joined a room of the same name."
-    },
-    {
-        "name": "Indecision App",
-        "skills": [
-            "Javascript",
-            "Node.js",
-            "React"
-        ],
-        "image": "",
-        "github": "https://github.com/Alchamyst/indecision-app",
-        "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "Simple chat app created using nodejs and socket.io. Users can join virtual chatrooms and chat with other people who have joined a room of the same name.",
+        "description2": "This project marked my initial foray into the world of websockets. I incorporated a message profanity filter and integrated a feature enabling users to share their location as a Google Maps link, generated through browser-based geolocation data requests."
     },
     {
         "name": "Task Manager API",
@@ -60,20 +52,38 @@
             "RESTful APIs",
             "MongoDB"
         ],
-        "image": "",
+        "image": "task-manager-api.png",
         "github": "https://github.com/Alchamyst/task-manager-api",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "As part of my exploration of JSON and RESTful APIs, I set out to build an Express web server hosting a 'task manager' API. This project involved creating two distinct API routes—one for user management and authentication, and another for task management. Task-related actions were limited to logged-in users, enabling them to create, query, edit, and delete tasks.",
+        "description2": "User and task data were securely stored through MongoDB, while jsonwebtoken was employed to validate login sessions. Rigorous testing was conducted using the 'Postman' desktop application, as depicted in the accompanying screenshot."
+    },
+    {
+        "name": "Indecision App",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "React",
+            "JSON"
+        ],
+        "image": "indecision-app.png",
+        "github": "https://github.com/Alchamyst/indecision-app",
+        "liveUrl": "",
+        "description1": "Marking my first venture into React app development, I created a straightforward application tailored for those grappling with decision-making. Users are provided with an uncomplicated solution — they simply input a list of options and then prompt the computer to make a random choice for them.",
+        "description2": "The app allows users to seamlessly add or remove items, offering both individual and bulk deletion options. Upon finalising the list, clicking the 'What should I do' button triggers the random selection process. Data is stored locally for users through the Web Storage API, ensuring compatibility with all modern web browsers."
     },
     {
         "name": "Node Weather Website",
         "skills": [
             "Javascript",
-            "Node.js"
+            "Node.js",
+            "JSON",
+            "RESTful APIs"
         ],
-        "image": "",
+        "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",
         "liveUrl": "",
-        "description": "Here is a description of my app. This would talk about the experience and technology used in the app."
+        "description1": "In my debut Express project, I developed a user-friendly web app enabling location-based weather forecasting. Users input their desired location, and the server queries an API to select the nearest match, displaying the current weather forecast on the webpage.",
+        "description2": "Originally, the project was developed to seamlessly integrate with Dark Sky, the provider of the weather data API. However, it's important to note that Dark Sky was subsequently acquired by Apple, resulting in the discontinuation of the API."
     }
 ]

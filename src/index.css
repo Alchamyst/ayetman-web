@@ -16,7 +16,7 @@
 
 a {
   color: #336699;
-  text-decoration: inherit;
+  text-decoration: underline;
 }
 a:hover {
   color: #e6772e;
@@ -53,6 +53,10 @@ h4 {
 
 html {
   overflow-y: scroll;
+}
+
+p {
+  margin: 0;
 }
 
 .content-box {

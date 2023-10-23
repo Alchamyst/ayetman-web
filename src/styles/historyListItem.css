@@ -25,6 +25,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
+    width: 2em;
+}
+
+.right-pointing-triangle::after {
+    content: "\25B6 \FE0E";
+}
+
+.down-pointing-triangle::after {
+    content: "\25BC \FE0E";    
 }
 
 /* .expander-open {
@@ -32,6 +41,7 @@
 } */
 
 .expander > p, .expander-open > p {
+    font-size: 1em;
     margin: 0em  0em 0em;
     padding: 0em 1em 0em 0em;
 }
@@ -60,7 +70,7 @@
 .history-organisation {
     color: #8d8d8d;
     font-size: 1.1em;
-    padding: 0 0 0 1em ;
+    padding: 0 0 0 0.2em ;
     margin: 0;
 }
 
@@ -122,6 +132,9 @@
 }
 
 @media only screen and (max-width: 995px) {
+    .expander {
+        width: 1.5em;
+    }
     .expander > p, .expander-open > p {
         margin: 0em  0em 0em 0em;
         padding: 0em 0.75em 0em 0em;
@@ -139,9 +152,9 @@
 
 
 @media only screen and (max-width: 675px) {
-    .expander {
+    /* .expander {
        display: none;
-    }
+    } */
     .history-start-date, .history-end-date{
         display: none;   
     }
@@ -158,6 +171,11 @@
     }
     .history-organisation, .history-start-date , .history-end-date, .history-description > p  {
         font-size: 0.9em;
+    }
+    .expander > p, .expander-open > p {
+        font-size: 0.9em;
+        margin: 0em  0em 0em;
+        padding: 0em 0.5em 0em 0em;
     }
 }
 
