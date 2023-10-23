@@ -35,9 +35,10 @@ export default function AboutMePage() {
                         My dedication to staying at the forefront of industry trends makes me a valuable asset for web development roles, prepared to confront challenges and infuse innovation into each project.
                     </p>
                     </div>
+                    <SocialLinks />
                 </div> 
             </main>
-            <SocialLinks />   
+               
         </div>
     );
 }
