@@ -15,8 +15,8 @@ export default function HistoryListItem(props) {
         <div className='history-list-item'>
             <div className={`history-compact ${props.isExpanded ? "history-compact-expanded": ""}`} onClick={handleOnClick}>
                 <div className={`expander ${props.isExpanded ? "expander-open" : ""}`}>
-                    {!props.isExpanded && <p>&#x25B6;</p>}
-                    {props.isExpanded && <p>&#x25BC;</p>}
+                    {!props.isExpanded && <span className='right-pointing-triangle' />}
+                    {props.isExpanded && <span className='down-pointing-triangle' />}
                 </div>
                 <div className='history-compact-wrapper'>
 

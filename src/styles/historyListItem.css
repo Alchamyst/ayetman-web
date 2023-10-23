@@ -28,6 +28,14 @@
     width: 2em;
 }
 
+.right-pointing-triangle::after {
+    content: "\25B6 \FE0E";
+}
+
+.down-pointing-triangle::after {
+    content: "\25BC \FE0E";    
+}
+
 /* .expander-open {
 
 } */
