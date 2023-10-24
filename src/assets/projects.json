@@ -11,7 +11,7 @@
         "github": "https://github.com/Alchamyst/ayetman-web",
         "liveUrl": "https://www.alchamyst.com",
         "description1": "The website you are currently exploring is the product of this project. Designed to adapt seamlessly to diverse devices and screens, it leverages technologies like React and Flex CSS and reflects my web development skills.",
-        "description2": "Of particular note, this project also marked my introduction to 'Vite', a frontend build tool akin to Webpack, which I found the experience to thoroughly enjoyable."
+        "description2": "Of particular note, this project also marked my introduction to 'Vite', a frontend build tool akin to Webpack, which I found the experience to be thoroughly enjoyable."
     },
     {
         "name": "Node MySQL Login",
