@@ -15,6 +15,10 @@
     justify-content:flex-start;
 }
 
+.history-compact:hover .expander, .history-compact:hover .history-designation {
+    color: #eeac31;  
+}
+
 .history-compact-expanded {
     border-radius: 1em 1em 0em 0em;
 }
