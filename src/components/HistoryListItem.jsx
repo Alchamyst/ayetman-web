@@ -1,6 +1,9 @@
 import '../styles/historyListItem.css';
 
 export default function HistoryListItem(props) {
+    const handleOnKeyDown = (event) => {
+        if (event.key === 'Enter') handleOnClick();
+    }
 
     const handleOnClick = () => {
         if (props.isExpanded == true){
@@ -13,7 +16,7 @@ export default function HistoryListItem(props) {
 
     return (
         <div className='history-list-item'>
-            <div className={`history-compact ${props.isExpanded ? "history-compact-expanded": ""}`} onClick={handleOnClick}>
+            <div className={`history-compact ${props.isExpanded ? "history-compact-expanded": ""}`} onClick={handleOnClick} onKeyDown={handleOnKeyDown} tabIndex={0}>
                 <div className={`expander ${props.isExpanded ? "expander-open" : ""}`}>
                     {!props.isExpanded && <span className='right-pointing-triangle' />}
                     {props.isExpanded && <span className='down-pointing-triangle' />}
