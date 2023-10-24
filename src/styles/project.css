@@ -42,7 +42,8 @@
 }
 
 .project-image-container img {
-    border: 1px dashed #171C30;
+    border: 1px solid #474C70;
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.5), 0 6px 20px 0 rgba(128, 128, 128, 0.19);
 
     border-radius: 5%;
     margin: 0.5em 0.5em 0.5em 0.5em;
