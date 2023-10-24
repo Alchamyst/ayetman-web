@@ -42,6 +42,8 @@
 }
 
 .project-image-container img {
+    border: 1px dashed #171C30;
+
     border-radius: 5%;
     margin: 0.5em 0.5em 0.5em 0.5em;
     max-height: 15em;
