@@ -1,5 +1,15 @@
+.contact-me-page {
+    max-width: 29em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-me-page > h1 {
+    margin: 0em 0em 0.5em 0em;
+}
+
 .contact-me-page > p {
-    margin: 1em 0 1em 0;
+    margin: 0em 0em 1em 0em;
 }
 
 .contact-me-page > p > a {

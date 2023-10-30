@@ -2,6 +2,7 @@ import '../styles/experiencePage.css';
 import ListBlock from '../components/ListBlock';
 import HistoryList from '../components/HistoryList';
 import myHistory from '../assets/myHistory.json';
+import SocialLinks from '../components/SocialLinks';
 
 const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
 const frameworkSkills = ['React', 'Node.js','Jest','Handlebars'];
@@ -29,6 +30,7 @@ export default function ExperiencePage() {
                         <h1>My History</h1>
                         <HistoryList history={myHistory} />
                     </div>
+                    <SocialLinks />
                 </div>
 
             </main>
