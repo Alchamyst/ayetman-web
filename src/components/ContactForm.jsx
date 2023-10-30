@@ -113,26 +113,26 @@ export default function ContactForm() {
 
     return (
         <div className='contact-form'>
-            {!formSubmitted &&
+            {!formSubmitted && 
             <form ref={form}>
                 <label htmlFor='name'>Your Name *</label>
-                <input type='text' name='name' id='name' value={name} onChange={ (e) => setName(e.target.value)} />
+                <input type='text' name='name' id='name' value={name} onChange={ (e) => setName(e.target.value)} disabled={formSubmitted} />
 
                 <label htmlFor='phone'>Phone Number</label>
-                <input type='tel' name='phone' id='phone' value={phone} onChange={ (e) => setphone(e.target.value)}/>
+                <input type='tel' name='phone' id='phone' value={phone} onChange={ (e) => setphone(e.target.value)} disabled={formSubmitted} />
 
                 <label htmlFor='email'>Email *</label>
-                <input type='email' name='email' id='email' value={email} onChange={ (e) => setEmail(e.target.value)}/>
+                <input type='email' name='email' id='email' value={email} onChange={ (e) => setEmail(e.target.value)} disabled={formSubmitted} />
 
-                <input type='hidden' name='work-email' id='work-email' value={honeyPot}  onChange={ (e) => sethoneyPot(e.target.value)}/>
+                <input type='hidden' name='work-email' id='work-email' value={honeyPot}  onChange={ (e) => sethoneyPot(e.target.value)} disabled={formSubmitted} />
 
                 <label htmlFor='message'>Message *</label>
-                <textarea name='message' id='message' value={message} onChange={ (e) => setMessage(e.target.value)}/>
+                <textarea name='message' id='message' value={message} onChange={ (e) => setMessage(e.target.value)} disabled={formSubmitted} />
 
                 {error && <p className="form-error">Warning: {error}</p>}
-                <button type='submit' onClick={handleSubmit}>Send Message</button>
+                {!formSubmitted && <button type='submit' onClick={handleSubmit} >Send Message</button>}
             </form>}
-            {formSubmitted && <p className='success'>Message Sent. 	Thanks for getting in touch.</p>}
+            {formSubmitted && <p className='success'>Message Sent. Thanks for getting in touch.</p>}
         </div>
     );
 }

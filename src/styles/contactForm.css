@@ -97,8 +97,10 @@
     color:#e4e3ff;
     text-shadow: -1px -1px 0 #171c30, 1px -1px 0 #171c30, -1px 1px 0 #171c30, 1px 1px 0 #171c30;
 
+    /* padding-top: 1em; */
     font-size: 1.25em;
     text-align: center;
+    /* max-width: 20em; */
 
 }
 
