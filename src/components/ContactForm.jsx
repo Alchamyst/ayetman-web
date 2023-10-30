@@ -2,8 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/contactForm.css';
 import { useState } from 'react';
+import successImg from '../assets/success.gif';
 
-export default function ContactForm() {
+export default function ContactForm(props) {
 
     const [name, setName] = useState('');
     const [phone, setphone] = useState('');
@@ -27,6 +28,7 @@ export default function ContactForm() {
 
         if (formValidated) {
             setFormSubmitted(true);
+            props.onFormSubmit();
 
             emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
             .then((result) => {
@@ -130,9 +132,14 @@ export default function ContactForm() {
                 <textarea name='message' id='message' value={message} onChange={ (e) => setMessage(e.target.value)} disabled={formSubmitted} />
 
                 {error && <p className="form-error">Warning: {error}</p>}
-                {!formSubmitted && <button type='submit' onClick={handleSubmit} >Send Message</button>}
+                <button type='submit' onClick={handleSubmit} disabled={formSubmitted} >Send Message</button>
             </form>}
-            {formSubmitted && <p className='success'>Message Sent. Thanks for getting in touch.</p>}
+            
+            {formSubmitted && <>
+                <p className='success'>Your message has been sent.</p>
+                <div className='success-img'><img src={successImg} /></div>
+                <p className='success-sub'>Thanks for getting in touch!</p>
+            </>}
         </div>
     );
 }
