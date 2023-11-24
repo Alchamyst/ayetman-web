@@ -10,7 +10,7 @@
 .about-me {
     background-color: #171C30;
     color: #bdbdbd;
-    border-radius: 1em;
+    border-radius: 0.5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1em 1em 1em 1em;
     /* flex-wrap: wrap;
@@ -31,7 +31,7 @@
 }
 
 .about-me > h1 {
-    margin-left: 3em;
+    margin-left: 3.5em;
 }
 
 .about-me > p {
@@ -54,12 +54,15 @@
 
     clip-path: circle(50%);
     shape-outside: circle(50%);
-    margin: 0.5rem;
+    /* margin-top: 0.5rem; */
+    margin-right: 1rem;
+    /* margin-bottom: 0.5rem; */
 }
 
 @media only screen and (max-width: 480px) {
     .about-me h1 {
         font-size: 1.4em;
+        margin-bottom: 0.5rem;
     }
 }
 
