@@ -11,18 +11,16 @@ export default function AboutMePage() {
             <main>
                 <div className='home-page content-box'>
                     <div className='about-me'>
-                        <div className='hey-img-box'>
-                            <img className='ash-img' src={ashleyImg} alt="photo of Ashley." />
-                            <h1>Hey, I'm Ashley.</h1>
-                        </div>
+                        <h1>Hey, I'm Ashley.</h1>
+                        
+                        <img className='ash-img' src={ashleyImg} alt="photo of Ashley." />
+                            
                         <p>
-                            A passionate web developer from the West Midlands, England. 
-                            I'm on a mission to craft exceptional digital experiences, ignited by my journey through technology and marketing.
+                            I'm a passionate web developer from the West Midlands, England who is on a mission to craft exceptional digital experiences, ignited by my journey through technology and marketing.
                         </p>
                         <p>
                             Join me on this exciting journey through the ever-evolving landscapes of software development.  
                         </p>
-
                     </div>
                     <div className='my-coding'>
                         <h2>Embarking on the Code Voyage</h2>
