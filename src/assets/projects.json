@@ -39,7 +39,7 @@
         ],
         "image": "expensify.png",
         "github": "https://github.com/Alchamyst/expensify-app",
-        "liveUrl": "",
+        "liveUrl": "https://expensify.alchamyst.com/",
         "description1": "In this project, I created an expense management app, a user-friendly platform for tracking spending. Users are required to create an account to start logging their expenses, and all data is securely stored in Firebase.",
         "description2": "This project initially served as a learning platform for mastering react-redux, and later evolved to incorporate robust functionality for data storage with Firebase."
     },
