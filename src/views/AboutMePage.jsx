@@ -16,29 +16,29 @@ export default function AboutMePage() {
                         <img className='ash-img' src={ashleyImg} alt="photo of Ashley." />
                             
                         <p>
-                            I'm a passionate web developer from the West Midlands. I've been deeply engrossed in software development throughout most of my life. From crafting my own software and projects to 
-                            delving into the world of spreadsheets, I find joy in transforming complex tasks into streamlined, understandable processes. As someone who appreciates the art of spreadsheets, I thrive 
-                            on simplifying and organising information.  
+                            I'm a passionate web developer from the West Midlands. Since university, I've continually refined my skills while navigating roles in the digital marketing industry. Applying my expertise in JavaScript, I've 
+                            created advanced Google Sheets infused with code to streamline tasks, and separately, harnessed React and Node.js to develop practical web applications. At my essence, I thrive in problem-solving and 
+                            innovation, enjoying transforming intricate tasks into streamlined, user-friendly processes.  
                         </p>
                         <p>
-                            Beyond the world of code, I proudly embrace classic nerd stereotypes, from D&D with friends to niche fan festival events. When I'm not in work mode, you can often catch me diving into
-                            online gaming as my go-to way to hang out and stay connected with friends scattered across the world.  
+                            Beyond the world of code, I wholeheartedly embrace classic nerd stereotypes. I enjoy a variety of sci-fi and fantasy TV shows/movies, I am blessed enough to have a weekly Dungeons & Dragons session
+                            with friends, and I'm an avid enthusiast of video games &#8211; a shared passion that serves as a delightful backdrop for socialising with friends.
                         </p>
                     </div>
                     <div className='my-coding'>
                         <h2>Professional Journey & Expertise</h2>
                     <p>
-                        I have a bachelor's degree in Multiplayer Online Games Design from Staffordshire University and have ventured into the dynamic realm of the Digital Marketing Industry, taking on roles both as 
-                        a Paid Search Manager and a Senior IT Manager. 
+                        I have a bachelor's degree in Multiplayer Online Games Design from Staffordshire University and have ventured into the dynamic realm of the Digital Marketing Industry, taking on roles both as a Paid Search Manager
+                        and a Senior IT Manager.
                     </p>
                     <p>
-                        Recently, I've been immersing myself in the CI/CD process for software development. I set up my own virtual servers, complete with a Jenkins build server, a Docker image
-                        repository, and an app server running my applications in Dockerized containers. Witnessing the streamlined update process for my apps has been immensely satisfying. My Jenkins server automatically
-                        rebuilds and deploys each app whenever changes are pushed to the main branch on GitHub. 
+                        Recently, I've delved into the CI/CD process for software development. Following the setup of my own virtual servers, I crafted Jenkins pipelines to streamline the build and deployment workflows for various projects
+                        in my portfolio. This included configuring a Jenkins build server, establishing a Docker image repository, and running my applications in Dockerized containers on an app server. Witnessing the seamless update process, 
+                        where my Jenkins server automatically rebuilds and deploys each application upon changes to the relevant GitHub branch, has been immensely satisfying.
                     </p>
                     <p>
-                        Reflecting on my diverse experiences, I realise my many strengths lie in being multifaceted, but I plan to continue specialising in Javascript programming as my main focus. I am eager to work within the 
-                        web development industry as a full stack developer focusing on React and Node.js, with a capability of taking on the DevOps role.
+                        Reflecting on my diverse experiences, I realise my many strengths lie in being multifaceted, but I plan to continue specialising in JavaScript programming as my main focus. I am eager to work within the web development
+                        industry as a full stack developer focusing on React and Node.js, with a capability of taking on the DevOps role.
                     </p>
 
                     </div>
