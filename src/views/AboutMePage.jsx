@@ -16,9 +16,9 @@ export default function AboutMePage() {
                         <img className='ash-img' src={ashleyImg} alt="photo of Ashley." />
                             
                         <p>
-                            I'm a passionate web developer from the West Midlands. Since university, I've continually refined my skills while navigating roles in the digital marketing industry. In efforts to streamline data 
-                            management, I've applied my expertise in JavaScript, creating advanced Google Sheets infused with code to automate previously time-consuming tasks. At my essence, I thrive in problem-solving and 
-                            innovation, seamlessly transforming intricate tasks into streamlined, user-friendly processes.  
+                            I'm a passionate web developer from the West Midlands. Since university, I've continually refined my skills while navigating roles in the digital marketing industry. Applying my expertise in JavaScript, I've 
+                            created advanced Google Sheets infused with code to streamline tasks, and separately, harnessed React and Node.js to develop practical web applications. At my essence, I thrive in problem-solving and 
+                            innovation, enjoying transforming intricate tasks into streamlined, user-friendly processes.  
                         </p>
                         <p>
                             Beyond the world of code, I wholeheartedly embrace classic nerd stereotypes. I enjoy a variety of sci-fi and fantasy TV shows/movies, I am blessed enough to have a weekly Dungeons & Dragons session
