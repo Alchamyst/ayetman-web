@@ -1,5 +1,21 @@
 [
     {
+        "name": "Weather Wingman",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "React",
+            "Vite",
+            "JSON",
+            "RESTful APIs"
+        ],
+        "image": "",
+        "github": "https://github.com/Alchamyst/alchamyst-weather-app",
+        "liveUrl": "https://weather.alchamyst.com/",
+        "description1": "This project is currently still under development. Designed to be a user-friendly web app that provides location-based weather forecasting. Users can get the weather of a location by searching for a city, postcode, or full/partial address - we will try to find the best match.",
+        "description2": "The search query is used to fetch data from an external API to retrieve the longitude and latitude of the closest matching location. The long + lat is then used to query a separate API (provided by open-meteo.com) for the weather data that is displayed by the front end app."
+    },
+    {
         "name": "Portfolio Website",
         "skills": [
             "Javascript",
