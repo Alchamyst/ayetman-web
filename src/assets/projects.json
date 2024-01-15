@@ -2,8 +2,8 @@
     {
         "name": "Asteroids-JS",
         "skills": [
-            "Javascript",
             "TypeScript",
+            "Javascript",
             "Webpack"
         ],
         "image": "asteroids-js.png",
@@ -18,9 +18,7 @@
             "Javascript",
             "Node.js",
             "React",
-            "Vite",
-            "JSON",
-            "RESTful APIs"
+            "Vite"
         ],
         "image": "weather-wingman.png",
         "github": "https://github.com/Alchamyst/alchamyst-weather-app",
@@ -34,8 +32,7 @@
             "Javascript",
             "Node.js",
             "React",
-            "Vite",
-            "JSON"
+            "Vite"
         ],
         "image": "alchamyst-portfolio.png",
         "github": "https://github.com/Alchamyst/ayetman-web",
@@ -49,7 +46,6 @@
             "Javascript",
             "Node.js",
             "Handlebars",
-            "JSON",
             "MySQL"
         ],
         "image": "node-mysql-login.png",
@@ -78,7 +74,7 @@
         "skills": [
             "Javascript",
             "Node.js",
-            "Websockets"
+            "Web Sockets"
         ],
         "image": "chat-app.png",
         "github": "https://github.com/Alchamyst/chat-app",
@@ -92,8 +88,6 @@
             "Javascript",
             "Node.js",
             "Jest",
-            "JSON",
-            "RESTful APIs",
             "MongoDB"
         ],
         "image": "task-manager-api.png",
@@ -107,8 +101,7 @@
         "skills": [
             "Javascript",
             "Node.js",
-            "React",
-            "JSON"
+            "React"
         ],
         "image": "indecision-app.png",
         "github": "https://github.com/Alchamyst/indecision-app",
@@ -120,9 +113,7 @@
         "name": "Node Weather Website",
         "skills": [
             "Javascript",
-            "Node.js",
-            "JSON",
-            "RESTful APIs"
+            "Node.js"
         ],
         "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",
