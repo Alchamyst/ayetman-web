@@ -1,19 +1,30 @@
 [
     {
+        "name": "Asteroids-JS",
+        "skills": [
+            "TypeScript",
+            "Javascript",
+            "Webpack"
+        ],
+        "image": "asteroids-js.png",
+        "github": "https://github.com/Alchamyst/asteroids-js",
+        "liveUrl": "https://alchamyst.github.io/asteroids-js/",
+        "description1": "My own take on the classic Asteroids game, employing pure JavaScript initially and subsequently implementing Webpack for code minification, optimising the loading process for web browsers.",
+        "description2": "In the course of this project, I expanded my skill set by incorporating TypeScript. This involved reconfiguring the original code into modular components, establishing a robust core game codebase that could serve as a base in some future game projects."
+    },
+    {
         "name": "Weather Wingman",
         "skills": [
             "Javascript",
             "Node.js",
             "React",
-            "Vite",
-            "JSON",
-            "RESTful APIs"
+            "Vite"
         ],
-        "image": "",
+        "image": "weather-wingman.png",
         "github": "https://github.com/Alchamyst/alchamyst-weather-app",
         "liveUrl": "https://weather.alchamyst.com/",
-        "description1": "This project is currently still under development. Designed to be a user-friendly web app that provides location-based weather forecasting. Users can get the weather of a location by searching for a city, postcode, or full/partial address - we will try to find the best match.",
-        "description2": "The search query is used to fetch data from an external API to retrieve the longitude and latitude of the closest matching location. The long + lat is then used to query a separate API (provided by open-meteo.com) for the weather data that is displayed by the front end app."
+        "description1": "Responsive web app that provides location-based weather forecasting. A front-end React app with a Node.js back-end server which handles the fetching of data from 3rd party APIs. Users can get the weather of a location by searching for a city, postcode, or full/partial address.",
+        "description2": "The search query is utilised to fetch data from an external API, retrieving the longitude and latitude of the closest matching location. Subsequently, this longitude and latitude data is used to query a separate API for the weather information displayed by the front-end app."
     },
     {
         "name": "Portfolio Website",
@@ -21,8 +32,7 @@
             "Javascript",
             "Node.js",
             "React",
-            "Vite",
-            "JSON"
+            "Vite"
         ],
         "image": "alchamyst-portfolio.png",
         "github": "https://github.com/Alchamyst/ayetman-web",
@@ -36,7 +46,6 @@
             "Javascript",
             "Node.js",
             "Handlebars",
-            "JSON",
             "MySQL"
         ],
         "image": "node-mysql-login.png",
@@ -65,7 +74,7 @@
         "skills": [
             "Javascript",
             "Node.js",
-            "Websockets"
+            "Web Sockets"
         ],
         "image": "chat-app.png",
         "github": "https://github.com/Alchamyst/chat-app",
@@ -79,8 +88,6 @@
             "Javascript",
             "Node.js",
             "Jest",
-            "JSON",
-            "RESTful APIs",
             "MongoDB"
         ],
         "image": "task-manager-api.png",
@@ -94,8 +101,7 @@
         "skills": [
             "Javascript",
             "Node.js",
-            "React",
-            "JSON"
+            "React"
         ],
         "image": "indecision-app.png",
         "github": "https://github.com/Alchamyst/indecision-app",
@@ -107,9 +113,7 @@
         "name": "Node Weather Website",
         "skills": [
             "Javascript",
-            "Node.js",
-            "JSON",
-            "RESTful APIs"
+            "Node.js"
         ],
         "image": "node-weather-website.png",
         "github": "https://github.com/Alchamyst/node-weather-website",

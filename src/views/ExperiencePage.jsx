@@ -4,10 +4,10 @@ import HistoryList from '../components/HistoryList';
 import myHistory from '../assets/myHistory.json';
 import SocialLinks from '../components/SocialLinks';
 
-const programmingSkills = ['Javascript','Google Apps Script','HTML5','CSS3'];
-const frameworkSkills = ['React', 'Node.js','Jest','Handlebars'];
-const webTechSkills = ['JSON', 'XML', 'RESTful APIs', 'Websockets'];
+const programmingSkills = ['TypeScript','JavaScript','Google Apps Script','HTML5','CSS3'];
+const frameworkSkills = ['React', 'Node.js','Jest','Web Sockets','Handlebars'];
 const databaseSkills = ['Firebase','MongoDB','MySQL'];
+const devToolsSkills = ['Git', 'Vite', 'Docker', 'Jenkins', 'Webpack', 'Postman'];
 
 export default function ExperiencePage() {
     return(
@@ -16,14 +16,14 @@ export default function ExperiencePage() {
                 <div className='content-box'>
                     <div className='section-skills'>
                         <h1>Development Skills</h1>
-                        <h2>Programming Languages</h2>
+                        <h2>Languages</h2>
                         <ListBlock list={programmingSkills} />
                         <h2>Frameworks</h2>
                         <ListBlock list={frameworkSkills} />
-                        <h2>Web Technologies</h2>
-                        <ListBlock list={webTechSkills} />
-                        <h2>Database Management</h2>
+                        <h2>Databases</h2>
                         <ListBlock list={databaseSkills} />
+                        <h2>Development Tools</h2>
+                        <ListBlock list={devToolsSkills} />
                     </div>
 
                     <div className='section-history'>
