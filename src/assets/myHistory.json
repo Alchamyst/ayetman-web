@@ -4,39 +4,39 @@
         "designation": "Senior IT Manager & Paid Search Specialist",
         "startDate":"2019-01-01",
         "endDate":"2023-09-01",
-        "description1": "As Senior IT Manager, I supervised essential IT systems and created Google Apps Scripts to automate tasks for the account manager and SEO support teams.",
-        "description2": "I managed Google Ads and Bing Ads while providing consultancy to clients' web development teams to improve site structure for SEO, address tracking code issues, and enhance overall user experience."
+        "description1": "As Senior IT Manager, I oversaw vital IT systems organisation-wide, managing security audits & compliance. I provided first and second-line IT support for UK offices and remote users, and collaborated closely with clients' web developer teams to implement conversion rate optimisation strategies.",
+        "description2": "Additionally, I managed Google Ads and Bing Ads accounts, overseeing a monthly click spend exceeding £100k for clients."
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Digital Marketing Executive",
         "startDate":"2016-04-01",
         "endDate":"2019-01-01",
-        "description1": "After completing my apprenticeship with Ocere, my role expanded to IT Manager, overseeing critical systems and providing first and second-line IT support across the organization.",
-        "description2": "I continued to oversee PPC landing page creation, implement conversion and affiliate tracking code, and provided technical SEO support and guidance to account managers."
+        "description1": "After being promoted, my role expanded to include responsibilities as an IT Manager, overseeing critical systems and providing first and second-line IT support across the organisation which I undertook in tandem with Paid Search Account Manager.",
+        "description2": ""
     },
     {
         "organisation": "Ocere Ltd.",
         "designation": "Digital Marketing Apprenticeship",
         "startDate":"2014-01-01",
         "endDate":"2016-04-01",
-        "description1": "I joined Ocere in a technical role supporting the account manager team to help devise and execute effective SEO strategies for our clients.  ",
-        "description2": "My responsibilities were expanded after a year to include the management of Google Ads and Bing Ads accounts."
+        "description1": "I joined Ocere in a technical role supporting the account manager team to help devise and execute effective SEO & PPC strategies for our clients.",
+        "description2": "My responsibilities were later expanded to implement and troubleshoot tracking code on behalf of our clients, and helping out withing the IT support team."
     },
     {
         "organisation": "Staffordshire University",
         "designation": "BSc Multiplayer Online Games Design",
         "startDate":"2008-09-01",
         "endDate":"2011-07-01",
-        "description1": "This three-year undergraduate course centred on game design and programming, providing a comprehensive range of skills.",
-        "description2": "Subjects covered include: game engines and physics, rapid prototyping, design documentation, networking with LANs and WANs, and game production and testing."
+        "description1": "This three-year undergraduate course centred on game design and programming, with LAN and WANs networking fundamentals, providing a comprehensive range of skills.",
+        "description2": "Subjects covered include:  Cisco networking fundamentals, rapid software prototyping, user interface design, advanced game engines and physics, and game production & testing."
     },
     {
         "organisation": "Evesham College",
         "designation": "BTEC National Diploma for IT Practitioners",
         "startDate":"2006-09-01",
         "endDate":"2008-06-01",
-        "description1": "My national diploma encompassed a wide spectrum of IT disciplines over two years of study.  ",
-        "description2": "Subjects covered include: software development, database management systems, website development, computer hardware, and computational methods."
+        "description1": "My national diploma encompassed a wide spectrum of IT disciplines over two years of study.",
+        "description2": "Subjects covered include: software development, database management systems, website development, computer hardware assembly & troubleshooting, and computational methods."
     }
 ]

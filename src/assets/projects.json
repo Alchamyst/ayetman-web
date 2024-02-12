@@ -10,7 +10,7 @@
         "github": "https://github.com/Alchamyst/asteroids-js",
         "liveUrl": "https://alchamyst.github.io/asteroids-js/",
         "description1": "My own take on the classic Asteroids game, employing pure JavaScript initially and subsequently implementing Webpack for code minification, optimising the loading process for web browsers.",
-        "description2": "In the course of this project, I expanded my skill set by incorporating TypeScript. This involved reconfiguring the original code into modular components, establishing a robust core game codebase that could serve as a base in some future game projects."
+        "description2": "In the course of this project, I expanded my skill set by incorporating TypeScript. This involved reconfiguring the original code into modular components, establishing a robust core game codebase that could serve as a base in future game projects."
     },
     {
         "name": "Weather Wingman",
