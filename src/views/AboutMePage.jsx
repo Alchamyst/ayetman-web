@@ -1,6 +1,6 @@
 import '../styles/aboutMePage.css';
 import SocialLinks from '../components/SocialLinks';
-import ashleyImg from '../assets/ashley.jpg';
+import ashleyImg from '../assets/ashley_192.jpg';
 
 export default function AboutMePage() {
     return(/* display: flex; */
